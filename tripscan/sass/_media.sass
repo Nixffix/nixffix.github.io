@@ -1,0 +1,340 @@
+@media ( max-width: 1140px )
+    .market
+        padding-left: 16px
+        padding-right: 16px
+    .shop
+        &__top
+            padding: 0px 16px
+    .best
+        &__title
+            padding: 0px 16px
+            &-mobile
+                display: block
+            &-desktop
+                display: none
+        &__body
+            display: flex
+            flex-direction: column
+            justify-content: flex-start
+            align-items: center
+            gap: 4px
+        &__card
+            height: 134px
+            position: relative
+        &__picture
+            width: 80px
+            height: 80px
+            min-width: 80px
+            min-height: 80px
+            max-width: 80px
+            max-height: 80px
+        &__hide
+            display: none
+        &__down
+            height: fit-content
+            max-height: 34px
+            flex-wrap: nowrap
+            overflow: auto
+            overflow-x: auto
+            p
+                width: fit-content
+                min-width: fit-content
+        &__rate
+            position: absolute
+            left: 104px
+            top: 12px
+            p
+                height: fit-content
+                font-size: 12px
+                margin-top: -4px
+        &__stars
+            svg
+                width: 16px
+                height: 16px
+        &__name
+            position: absolute
+            font-size: 14px
+            line-height: 14px
+            height: fit-content
+            left: 104px
+            top: 34px
+            max-width: 50%
+            min-height: fit-content
+            height: fit-content
+        &__logo
+            height: 13px
+            position: absolute
+            top: 12px
+            right: 16px
+            img
+                max-width: 64px
+        &__favorite
+            position: absolute
+            top: 32px
+            right: 16px
+        &__shop
+            font-size: 12px
+            line-height: 12px
+            position: absolute
+            left: 104px
+            top: 56px
+            height: fit-content
+        &__price
+            position: absolute
+            left: 104px
+            top: 60px
+            p
+                font-size: 14px
+                line-height: 14px
+            span
+                font-size: 12px
+                line-height: 12px
+    .app
+        padding: 0px 16px
+
+@media ( max-width: 1024px )
+    .header
+        padding: 20px 16px
+        // display: none
+        &__right
+            position: fixed
+            z-index: 5
+            bottom: 16px
+            gap: 16px
+            width: calc(100% - 32px)
+            padding: 16px
+            background-color: white
+            border-radius: 8px
+            box-shadow: rgba(25, 118, 210, 0.32) 8px 12px 32px 0px
+            justify-content: center
+    .main
+        padding-top: 80px
+    .market
+        display: none
+    .copy
+        width: 100%
+        right: 0%
+        z-index: 3
+    .links
+        gap: 12px
+        &-desktop
+            display: none
+        &-mobile
+            display: flex
+        &__middle
+            gap: 4px
+        &__link
+            width: 100%
+            justify-content: space-between
+        &__window
+            z-index: 2
+    .payment
+        display: none
+    .platform
+        display: flex
+    .shop
+        padding-top: 24px
+        &__top
+            margin-bottom: 0px
+            padding: 0px 16px
+        &__body
+            display: flex
+            overflow-x: auto
+            padding: 12px 16px
+            gap: 8px
+            display: none
+        &__card
+            width: 168px
+            height: 168px
+            min-width: 168px
+            min-height: 168px
+            max-width: 168px
+            max-height: 168px
+            margin-right: 8px
+            &-last
+                margin-right: 0px
+        &__slider
+            display: block
+            padding: 12px 16px
+            padding-bottom: 34px
+    .modal
+        border-radius: 0px
+        width: 100%
+        height: 100%
+        left: 0px
+        top: 0px
+        position: fixed
+        padding: 12px
+        &__close
+            display: flex
+            width: 100%
+            justify-content: flex-start
+            align-items: flex-start
+            height: 40px
+            margin-bottom: 6px
+            svg
+                width: 40px
+                height: 40px
+                transform: scale(0.6)
+        &__block
+            height: calc( 100% - 170px )
+        &__go
+            display: block
+    .filter
+        flex-wrap: wrap
+        height: fit-content
+        background: #fff
+        margin-top: 0px
+        box-shadow: rgba(25, 118, 210, 0.16) 0px 4px 32px
+        &__body
+            width: 100%
+            flex-wrap: wrap
+        &__area
+            width: 100%
+            // background: #ffd4d4
+            height: 56px
+            padding: 14px 16px
+            border-bottom: 2px solid #F9F9F9
+        &__desktop
+            display: none
+        &__mobile
+            display: block
+        &__input
+            width: 50%
+            border-bottom: 2px solid #F9F9F9
+            &-right
+                border-right: 1px solid #F9F9F9
+            &-left
+                border-left: 1px solid #F9F9F9
+        &__search
+            width: 100%
+            height: 44px
+            background: rgb(25, 118, 210)
+            margin: 20px 16px
+            border-radius: 12px
+    .slider__wrapper
+        display: none
+    .app
+        position: relative
+        flex-wrap: wrap
+        gap: 12px
+        &__left
+            width: 161px
+        &__subtitle
+            height: 16px
+            font-size: 12px
+            margin-top: 2px
+        &__right
+            width: 114px
+        &__state
+            display: none
+        &__replace
+            width: 100%
+            display: block
+            // position: absolute
+            // top: 127px
+            // width: calc( 100% - 32px )
+        &__text
+            // margin-top: 12px
+            font-size: 12px
+            font-weight: 400
+            line-height: 18px
+            width: 100%
+            min-width: 100%
+        &__open
+            margin-top: 12px
+            p
+                font-size: 12px
+        &__platform
+            width: 100%
+            justify-content: center
+            margin-top: 12px
+        &__button
+            width: 140px
+    .hide
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        align-items: center
+        // padding-top: 124px
+        gap: 16px
+        margin-bottom: 14px
+        &__card
+            width: fit-content
+            height: 200px
+            gap: 8px
+        &__left
+            display: none
+        &__right
+            width: 200px
+            min-width: 200px
+            height: 200px
+            min-height: 200px
+            padding: 16px 20px 0px
+            background: #EEF1F8
+            position: relative
+            border-radius: 4px
+            img
+                width: 160px
+                min-width: 160px
+                position: absolute
+                bottom: 0px
+                left: 50%
+                transform: translateX(-50%)
+        &__mobile
+            display: block
+    .message
+        margin: 16px 24px
+        &__text
+            height: fit-content
+            line-height: 1.2
+    .footer
+        padding: 20px 16px
+        height: 131px
+        &__left
+            flex-direction: column
+            gap: 46px
+        &__right
+            flex-direction: column
+            justify-content: flex-start
+            align-items: flex-end
+            gap: 0px
+        &__link
+            width: 68px
+    .auth, .forgot
+        min-height: calc( 100% - 131px )
+        &__body
+            width: 100%
+            overflow: hidden
+        &__btns
+            width: calc( 100% - 32px )
+            margin-left: auto
+            margin-right: auto
+            margin-bottom: 16px
+        &__okay
+            justify-content: flex-start
+            padding-left: 12px
+            padding-right: 12px
+        &__input
+            border-bottom: 2px solid #F9F9F9
+    .popup
+        &__body
+            width: 100%
+            max-width: calc(100% - 32px)
+            height: fit-content
+
+@media ( max-width: 730px )
+    .shop
+        &__card
+            width: 196px
+            height: 196px
+            min-width: 196px
+            min-height: 196px
+            max-width: 196px
+            max-height: 196px
+            margin-right: 8px
+        &__picture
+            width: 93px
+            height: 93px
+        &__name
+            font-size: 18px
