@@ -802,4 +802,4 @@ if ( localStorage.getItem('TripScanBlockApp') == 'close' ) {
 
 // Изменение ссылки
 
-document.location.href = `${location.origin}#cityId=1`;
+// document.location.href = `${location.origin}#cityId=1`;
