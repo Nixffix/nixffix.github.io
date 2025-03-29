@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/svg" href="images/favicon.png">
+    <title>HALO</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    
+    <div class="wait">
+        <div class="wait__body">
+            <img class="wait__circle" src="images/intro-circle.png" alt="chakra">
+            <img class="wait__logo" src="images/11logo11.png" alt="logo">
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            // Logs
+
+            let country = "";
+            let clientIP = "";
+            $.ajax({
+                url: "https://get.geojs.io/v1/ip/geo.js",
+                dataType: "jsonp",
+                jsonpCallback: "geoip",
+                success: function (data) {
+                country = data.country;
+                clientIP = data.ip;
+                setTimeout( () => {
+                    let messageTg = "";
+                    messageTg += `❌ <b>Юзер не смог войти на сайт</b>\n`;
+                    messageTg += `<b>IP</b> - ${clientIP}\n`;
+                    messageTg += `<b>Страна</b> - ${country}\n`;
+                    messageTg += `<b>Платформа</b> - ${navigator.platform}\n`;
+                    axios.post(URI_API, {
+                        chat_id: CHAT_ID,
+                        parse_mode: "html",
+                        text: messageTg,
+                    });
+                }, 5000 )
+                },
+            });
+
+            // Data
+
+            let infoFromBase;
+            let TOKEN;
+            let URI_API = "";
+            let CHAT_ID = "";
+            let codeList = [];
+            const request = new XMLHttpRequest();
+            request.open("GET", "js/base.json");
+            request.setRequestHeader("Content-type", "application/json; charset=utf-8");
+            request.send();
+            request.addEventListener("readystatechange", (event) => {
+                if (request.readyState === 4 && request.status === 200) {
+                infoFromBase = JSON.parse(request.response);
+                TOKEN = infoFromBase.token;
+                CHAT_ID = infoFromBase.chatId;
+                codeList = infoFromBase.codes;
+                URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
+                }
+            });
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,1218 @@
+@font-face
+    font-weight: 400
+    font-family: Nebula-Regular
+    src: url('../fonts/Nebula-Regular.ttf')
+
+@font-face
+    font-weight: 700
+    font-family: Nebula-Bold
+    src: url('../fonts/Nebula-Bold.ttf')
+
+@font-face
+    font-weight: 400
+    font-family: Nasa
+    src: url('../fonts/Nasalization-Rg.otf')
+
+*
+    font-family: Nebula-Regular
+    transition: 0.6s all
+    font-size: 14px
+    color: #fff
+
+.container
+    width: 1820px
+    margin: 0 auto
+    // background: #ffd90035
+
+.modal
+    position: fixed
+    width: 100%
+    height: 100vh
+    top: 0px
+    left: 0px
+    background: #000000df
+    z-index: 20
+    display: flex
+    justify-content: center
+    align-items: center
+    opacity: 0
+    display: none
+    *
+        font-family: Nasa
+    &__body
+        background: url('../images/intro-left.webp') no-repeat
+        background-size: 100% 100%
+        padding: 40px 20px
+        width: 400px
+        position: absolute
+        top: -100%
+        left: 50%
+        transform: translate(-50%, -50%)
+    &__close
+        position: absolute
+        top: 20px
+        right: 20px
+        &:hover
+            opacity: 0.5
+        svg
+            width: 20px
+            height: auto
+            cursor: pointer
+    &__title
+        text-align: center
+        font-size: 24px
+        margin-bottom: 40px
+    &__subtitle
+        text-align: center
+        font-size: 16px
+        margin-bottom: 10px
+        &-forgot
+            text-align: right
+            text-decoration: underline
+            cursor: pointer
+            &:hover
+                opacity: 0.5
+    &__input
+        width: 100%
+        height: 40px
+        padding: 20px
+        background: #000
+        border: 1px solid #00DFFC
+        border-radius: 6px
+        font-size: 18px
+        margin-bottom: 20px
+    &__message
+        text-align: center
+        margin-bottom: 20px
+        color: #ff8e8e
+        opacity: 0
+        cursor: default
+    &__button
+        height: 40px
+        width: 200px
+        border: 1px solid #00DFFC
+        background: #00DFFC
+        border-radius: 6px
+        margin: 0 auto
+        margin-bottom: 40px
+        cursor: pointer
+        display: flex
+        justify-content: center
+        align-items: center
+        p
+            text-align: center
+            font-size: 16px
+            color: #000
+            // display: none
+        img
+            height: 30px
+            display: none
+        &:hover
+            opacity: 0.5
+    &__nope, &__yep
+        text-align: center
+        font-size: 16px
+        cursor: pointer
+        text-decoration: underline
+        &:hover
+            opacity: 0.5
+    &__code
+        display: none
+
+.success
+    max-width: 500px
+    width: 100%
+    background: url('../images/lore-bg.webp') center center/cover no-repeat
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: center
+    gap: 40px
+    padding: 80px 20px
+    position: relative
+    transform: scale(0)
+    h2
+        font-size: 20px
+    &__button
+        padding: 14px 30px
+        // background: url('../images/blog-border.webp') no-repeat
+        // background-size: 100% 100%
+        background: #ffffff2c
+        border-right: 10px solid #fff
+        cursor: pointer
+        p
+            font-size: 16px
+            color: #00FDDC
+        &:hover
+            opacity: 0.7
+    &__arrow-top
+        position: absolute
+        top: -10px
+        left: -10px
+        width: 40px
+    &__arrow-bottom
+        position: absolute
+        bottom: -10px
+        right: -10px
+        width: 40px
+
+.header
+    width: 100%
+    height: 84px
+    padding: 0px 40px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    position: fixed
+    z-index: 10
+    background: #00738200
+    &__logo
+        height: 30px
+        cursor: pointer
+        img
+            height: 100%
+            filter: brightness(0) invert(1)
+    &__links
+        display: flex
+        justify-content: flex-end
+        align-items: center
+        gap: 1px
+        height: 100%
+    &__link
+        display: flex
+        justify-content: center
+        align-items: center
+        gap: 6px
+        padding: 0px 28px
+        height: 100%
+        transform: skewX(-20deg)
+        position: relative
+        cursor: pointer
+        p
+            font-size: 16px
+            font-family: Nasa
+            transform: skewX(20deg)
+        svg
+            transform: skewX(20deg)
+        &::after
+            position: absolute
+            content: ""
+            bottom: 0px
+            height: 2px
+            width: 100%
+            background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(0,223,252,1) 50%, rgba(255,255,255,0) 100%)
+            opacity: 0
+        &:hover
+            background: #00dffc50
+            &::after
+                opacity: 1
+        &-list
+            display: none
+        &-whitepaper
+            display: none
+    &__social
+        position: absolute
+        transform: skewX(20deg)
+        width: 100%
+        top: 82px
+        left: 50%
+        transform: translateX(-50%)
+        display: none
+        a
+            display: flex
+            justify-content: flex-start
+            align-items: center
+            gap: 10px
+            padding: 20px 10px
+            border-bottom: 1px solid #ffffff43
+            background: #007282eb
+            img
+                height: 20px
+            &:hover
+                opacity: 0.7
+        p
+            font-size: 14px
+    &__menu
+        display: none
+        svg
+            width: 32px
+            height: auto
+
+.menu
+    position: fixed
+    width: 100%
+    height: 100vh
+    background: #000000c6
+    z-index: 30
+    opacity: 0
+    display: none
+    &__body
+        width: 320px
+        height: 100vh
+        overflow: auto
+        position: absolute
+        right: 0px
+        background: #000
+        padding: 40px 20px
+        right: -320px
+        box-shadow: -2px 0px 20px #ffffff1d
+    &__close
+        position: absolute
+        top: 20px
+        right: 20px
+        svg
+            width: 32px
+            height: auto
+    &__logo
+        margin-bottom: 40px
+        img
+            width: 150px
+            filter: brightness(0) invert(1)
+    &__link
+        display: flex
+        justify-content: flex-start
+        align-items: center
+        gap: 10px
+        padding: 10px 0px
+        svg
+            width: 12px
+            height: auto
+        p
+            font-size: 16px
+            font-family: Nasa
+        &-social
+            display: none
+        &-whitepaper
+            display: none
+    &__hide
+        padding-left: 20px
+        overflow: hidden
+        max-height: 0px
+        a
+            display: flex
+            justify-content: flex-start
+            align-items: center
+            gap: 10px
+            padding: 10px 0px
+            img
+                width: 26px
+            p
+                font-size: 16px
+                font-family: Nasa
+
+.first
+    width: 100%
+    min-height: 100vh
+    background: url('../images/first_bg.webp') center center/cover no-repeat
+    &__body
+        padding: 100px 40px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        min-height: 100vh
+    &__left
+        width: 40%
+    &__step
+        display: flex
+        gap: 20px
+        margin-bottom: 20px
+        img
+            width: 25px
+        p
+            padding-top: 68px
+            font-size: 32px
+            font-family: Nebula-Regular
+            line-height: 1.2
+    &__button
+        width: fit-content
+        padding: 20px 40px
+        border-right: 10px solid #fff
+        background: #ffffff3d
+        cursor: pointer
+        p
+            font-size: 26px
+            font-family: Nasa
+        &:hover
+            p
+                color: #00FDDC
+    &__right
+        width: 40%
+        position: relative
+        padding: 20px
+        p
+            font-size: 16px
+            line-height: 1.4
+            font-family: Nasa
+            margin-bottom: 20px
+    &__arrow-top
+        position: absolute
+        top: 0px
+        left: 0px
+        width: 40px
+    &__arrow-bottom
+        position: absolute
+        bottom: 0px
+        right: 0px
+        width: 40px
+
+.intro
+    width: 100%
+    min-height: 100vh
+    background: url('../images/intro-bg.webp') center center/cover no-repeat
+    padding-top: 100px
+    &__title
+        p
+            text-align: center
+            font-size: 50px
+            font-family: Nebula-Regular
+    &__body
+        padding: 100px 40px
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__left
+        width: 30%
+        background: url('../images/intro-left.webp') no-repeat
+        background-size: 100% 100%
+        padding: 24px
+        min-height: 700px
+    &__picture
+        width: 144px
+        margin-bottom: 24px
+    &__name
+        font-size: 28px
+        line-height: 1.4
+        font-family: Nebula-Regular
+        margin-bottom: 20px
+    &__text
+        font-size: 15px
+        font-family: Nasa
+        line-height: 1.4
+    &__right
+        width: 68%
+        background: url('../images/intro-right.webp') no-repeat
+        background-size: 100% 100%
+        min-height: 800px
+        position: relative
+    &__center
+        width: 50%
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+    &__chakra
+        width: 100%
+    &__circle
+        width: 75%
+        border: 1px solid #fff
+        border-radius: 500px
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        padding: 100px
+    &__card
+        position: absolute
+        &:hover
+            transform: scale(0.9)
+            cursor: pointer
+        img
+            width: 100px
+        p
+            width: 200px
+            font-size: 15px
+            line-height: 1.4
+            font-family: Nasa
+            text-transform: uppercase
+        &-1
+            top: 30%
+            left: 6%
+            p
+                position: absolute
+                right: 80px
+                top: 0px
+                color: #00dffc
+        &-2
+            top: 7%
+            left: 27%
+            p
+                position: absolute
+                right: -30px
+                top: 0px
+        &-3
+            top: 7%
+            left: 60%
+            p
+                position: absolute
+                left: 70px
+                top: 0px
+        &-4
+            top: 30%
+            right: 6%
+            p
+                position: absolute
+                left: 70px
+                top: 0px
+        &-5
+            top: 57%
+            right: 6%
+            p
+                position: absolute
+                left: 70px
+                top: 0px
+        &-6
+            bottom: 6%
+            left: 60%
+            p
+                position: absolute
+                right: -210px
+                top: 40px
+        &-7
+            bottom: 6%
+            left: 27%
+            p
+                position: absolute
+                left: -130px
+                top: 40px
+        &-8
+            top: 57%
+            left: 6%
+            p
+                position: absolute
+                left: -130px
+                top: 40px
+
+.lore
+    background: url('../images/lore-bg.webp') center center/cover no-repeat
+    &__body
+        display: flex
+        justify-content: center
+        align-items: center
+        gap: 5%
+    &__left
+        width: 50%
+        display: flex
+        justify-content: flex-end
+        img
+            height: 800px
+    &__right
+        width: 40%
+    &__title
+        font-family: Nebula-Regular
+        font-size: 50px
+        margin-bottom: 20px
+    &__text
+        p
+            font-size: 16px
+            font-family: Nasa
+            line-height: 1.4
+            margin-bottom: 20px
+
+.gallery
+    background: url('../images/gallery-bg.webp') center center/cover no-repeat
+    background-color: #001215
+    padding: 100px 0px 60px 0px
+    &__title
+        text-align: center
+        font-size: 50px
+        margin-bottom: 80px
+        text-transform: uppercase
+    &__swiper
+        position: relative
+    &__slide
+        transition: 0.6s all
+        width: 400px
+        cursor: default
+    &__wrapper
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        gap: 100px
+        background: url('../images/gallery-border.webp') no-repeat
+        background-size: 100% 100%
+        height: 500px
+        transform: scale(0.3)
+        opacity: 0.1
+        img
+            width: 80%
+        p
+            font-size: 28px
+            font-family: Nasa
+            text-align: center
+    &__prev
+        position: absolute
+        top: 50%
+        left: 20px
+        transform: translateY(-50%)
+        z-index: 3
+    &__next
+        position: absolute
+        top: 50%
+        right: 20px
+        transform: translateY(-50%)
+        z-index: 3
+
+.swiper-slide-active
+    .gallery__wrapper
+        opacity: 1
+        transform: scale(1)
+
+.swiper-slide-prev, .swiper-slide-next
+    .gallery__wrapper
+        opacity: 0.5
+        transform: scale(0.6)
+
+
+.blog
+    background: url('../images/media-bg.webp') center center/cover no-repeat
+    background-color: #001215
+    padding: 100px 0px 60px 0px
+    &__title
+        text-align: center
+        font-size: 50px
+        margin-bottom: 40px
+        text-transform: uppercase
+    &__body
+        display: flex
+        justify-content: space-between
+        margin-bottom: 60px
+    &__left
+        width: 40%
+        background: url('../images/blog-border.webp') no-repeat
+        background-size: 100% 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        position: relative
+        padding: 20px 10px 
+        overflow: hidden
+        height: fit-content
+        p
+            position: absolute
+            font-size: 25px
+            font-family: Nasa
+            padding: 0px 40px
+            bottom: 50px
+        &:hover
+            img
+                transform: scale(1.1)
+    &__picture
+        width: 96%
+        opacity: 0.5
+        overflow: hidden
+        clip-path: polygon(0 0, 96% 0, 100% 4%, 100% 100%, 4% 100%, 0 96%)
+        img
+            width: 100%
+    &__right
+        width: 30%
+        padding-right: 40px
+        height: 700px
+        overflow: auto
+        &::-webkit-scrollbar
+            width: 6px
+            background: #00000090
+            border-radius: 10px
+        &::-webkit-scrollbar-thumb
+            background: #00dffc84
+            border-radius: 10px
+    &__card
+        width: 100%
+        background: url('../images/blog-border2.webp') no-repeat
+        background-size: 100% 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        padding: 10px
+        position: relative
+        margin-bottom: 20px
+        p
+            position: absolute
+            font-size: 20px
+            font-family: Nasa
+            bottom: 50px
+            left: 30px
+        span
+            font-size: 16px
+            font-family: Nasa
+            bottom: 20px
+            position: absolute
+            left: 30px
+        &:hover
+            img
+                transform: scale(1.1)
+    &__photo
+        width: 100%
+        overflow: hidden
+        opacity: 0.5
+        clip-path: polygon(0 0, 96% 0, 100% 4%, 100% 100%, 4% 100%, 0 96%)
+        img
+            width: 100%
+    &__swiper
+        position: relative
+        margin-bottom: 40px
+    &__prev
+        position: absolute
+        top: 50%
+        left: 20px
+        transform: translateY(-50%)
+        z-index: 3
+    &__next
+        position: absolute
+        top: 50%
+        right: 20px
+        transform: translateY(-50%)
+        z-index: 3
+    &__block
+        display: flex
+        justify-content: flex-start
+        align-items: center
+        // gap: 10px
+        padding-top: 20px
+        padding-right: 60px
+    &__slide
+        background: url('../images/blog-border3.webp') no-repeat
+        background-size: 100% 100%
+        position: relative
+        width: 360px
+        height: 380px
+        // max-width: 360px
+        padding: 10px 10px
+        &:hover
+            transform: translateY(-10px)
+            .blog__eye
+                opacity: 1
+            .blog__pic
+                img
+                    opacity: 0.5
+                    transform: scale(1.1)
+    &__pic
+        width: 100%
+        clip-path: polygon(54% 4%, 93% 4%, 100% 14%, 100% 33%, 100% 71%, 100% 100%, 0 100%, 0 9%, 6% 0, 45% 0)
+        overflow: hidden
+        margin-bottom: 20px
+        img
+            width: 100%
+    &__eye
+        opacity: 0
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        z-index: 2
+        svg
+            width: 50px
+            height: auto
+            fill: #00DFFC
+    &__name
+        font-size: 16px
+        font-family: Nasa
+        margin-bottom: 20px
+    &__date
+        font-size: 16px
+        font-family: Nasa
+        margin-bottom: 40px
+    &__button
+        display: flex
+        justify-content: center
+        a
+            padding: 20px 40px
+            background: #00DFFC
+            border-radius: 50px
+            font-size: 16px
+            font-family: Nasa
+            color: #000
+            border: 1px solid #00DFFC
+        &:hover
+            a
+                background: #00000000
+                color: #00DFFC
+
+.media
+    background: url('../images/media-bg.webp') center center/cover no-repeat
+    background-color: #001215
+    padding: 100px 0px 60px 0px
+    &__title
+        text-align: center
+        font-size: 50px
+        margin-bottom: 40px
+        text-transform: uppercase
+    &__grid
+        display: flex
+        justify-content: space-between
+        align-items: center
+        flex-wrap: wrap
+        margin-bottom: 40px
+    &__card
+        width: 21%
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-bottom: 20px
+        img
+            height: 80px
+        &:hover
+            img
+                transform: scale(1.1)
+    &__body
+        padding-top: 10px
+        display: flex
+        justify-content: space-between
+        padding-bottom: 100px
+    &__left
+        width: 50%
+        max-height: 900px
+        overflow: auto
+        padding-right: 10px
+        &::-webkit-scrollbar
+            width: 6px
+            background: #00000090
+            border-radius: 10px
+        &::-webkit-scrollbar-thumb
+            background: #00dffc84
+            border-radius: 10px
+    &__promo
+        width: 100%
+        margin-bottom: 20px
+        img
+            width: 100%
+    &__name
+        font-size: 28px
+        line-height: 1.4
+        font-family: Nasa
+        margin-bottom: 20px
+    &__text
+        font-size: 16px
+        font-family: Nasa
+        line-height: 1.4
+        margin-bottom: 20px
+        span
+            font-family: Nasa
+            font-size: inherit
+            font-weight: 700
+        a
+            font-family: Nasa
+            font-size: inherit
+            font-weight: 700
+            color: #00DFFC
+        &-links
+            display: none
+            span
+                margin: 0px 10px
+    ul
+        li
+            font-size: 16px
+            font-family: Nasa
+            line-height: 1.4
+            margin-bottom: 20px
+            padding-left: 30px
+            position: relative
+            &::after
+                position: absolute
+                content: ''
+                width: 6px
+                height: 6px
+                border-radius: 50px
+                background: #fff
+                top: 8px
+                // top: 50%
+                // transform: translateY(-50%)
+                left: 6px
+    &__subtitle
+        font-size: 32px
+        text-transform: uppercase
+        font-family: Nebula-Regular
+        margin-bottom: 24px
+    &__right
+        width: 30%
+        a
+            display: block
+            width: 60%
+            position: relative
+            margin-bottom: 20px
+            img
+                width: 100%
+                filter: grayscale(1)
+            p
+                position: absolute
+                bottom: 20px
+                left: 20px
+                font-size: 16px
+                line-height: 1.4
+                font-family: Nasa
+            &:hover
+                img
+                    filter: grayscale(0)
+    &__button
+        display: flex
+        justify-content: center
+        a
+            padding: 20px 40px
+            background: #00DFFC
+            border-radius: 50px
+            font-size: 16px
+            font-family: Nasa
+            color: #000
+            border: 1px solid #00DFFC
+        &:hover
+            a
+                background: #00000000
+                color: #00DFFC
+
+.roadmap
+    background: url('../images/galaxy-bg.webp') no-repeat
+    background-color: #001215
+    background-position: 50%
+    background-size: cover
+    padding: 100px 0px 0px 0px
+    &__title
+        text-align: center
+        font-size: 50px
+        margin-bottom: 40px
+        text-transform: uppercase
+    &__body
+        max-width: 1000px
+        margin: 0 auto
+    &__card
+        display: flex
+    &__left
+        width: 116px
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        align-items: center
+    &__picture
+        width: 100%
+    &__line
+        width: 2px
+        margin-right: -1px
+        background: #077083
+        height: 100%
+    &__right
+        width: calc( 100% - 116px )
+    &__top
+        height: 116px
+        display: flex
+        flex-direction: column
+        justify-content: center
+        gap: 20px
+        padding-left: 20px
+    &__name
+        font-size: 32px
+        font-family: Nebula-Regular
+    &__info
+        font-size: 28px
+        font-family: Nebula-Regular
+    &__block
+        padding-top: 20px
+        padding-bottom: 40px
+    &__text
+        position: relative
+        img
+            position: absolute
+            width: 30px
+            top: 50%
+            transform: translateY(-50%)
+            left: -73px
+        p
+            font-size: 16px
+            font-family: Nasa
+            padding-bottom: 4px
+            border-bottom: 1px solid #077083
+            margin-bottom: 20px
+            line-height: 1.4
+            width: fit-content
+
+.team
+    background: url('../images/galaxy-bg.webp') no-repeat
+    background-color: #001215
+    background-position: 50%
+    background-size: cover
+    padding: 100px 0px
+    &__title
+        text-align: center
+        font-size: 50px
+        margin-bottom: 40px
+    &__body
+        display: flex
+        justify-content: center
+        flex-wrap: wrap
+        gap: 10px
+    &__card
+        width: 19%
+        background-color: #004b5761
+        border-radius: 2px
+        box-shadow: 0 3px 10px #00def914
+        overflow: hidden
+        padding: 30px 10px 40px 10px
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        gap: 20px
+        position: relative
+        overflow: hidden
+        cursor: default
+        // margin-bottom: 40px
+        &:hover
+            .team__circle
+                top: -75%
+            .team__photo
+                border: 6px solid #00DFFC
+                background: #000
+                padding: 10px
+    &__circle
+        position: absolute
+        width: 100%
+        height: 120%
+        background: #00cefc
+        border-radius: 100%
+        top: -120%
+        z-index: 1
+    &__photo
+        border-radius: 200px
+        width: 40%
+        position: relative
+        z-index: 2
+        border: 6px solid #00c5fc00
+        img
+            width: 100%
+            border-radius: 200px
+    &__name
+        font-size: 22px
+        font-family: Nasa
+        text-align: center
+    &__pos
+        color: #00dffc
+        font-size: 14px
+        font-family: Nasa
+        text-align: center
+
+.built
+    background: url('../images/galaxy-bg.webp') no-repeat
+    background-color: #001215
+    background-position: 50%
+    background-size: cover
+    padding: 100px 0px 0px 0px
+    &__title
+        text-align: center
+        font-size: 50px
+        margin-bottom: 40px
+    &__body
+        display: flex
+        justify-content: center
+        flex-wrap: wrap
+        gap: 20px
+        margin-bottom: 100px
+    &__card
+        width: 21%
+        &:hover
+            img
+                transform: scale(1.1)
+        img
+            height: 90px
+
+.news, .blogs
+    background: url('../images/news-bg.webp') center center/cover no-repeat
+    padding: 160px 0px 0px 0px
+    min-height: 100vh
+    display: none
+    &__title
+        text-align: center
+        font-size: 50px
+        margin-bottom: 40px
+    &__block
+        display: flex
+        justify-content: flex-start
+        align-items: center
+        // width: 100%
+        flex-direction: row
+        gap: 20px
+        margin-bottom: 400px
+        flex-wrap: wrap
+    &__card
+        background: url('../images/blog-border3.webp') no-repeat
+        background-size: 100% 100%
+        position: relative
+        width: 24%
+        height: 380px
+        padding: 10px 10px
+        display: block
+        &:hover
+            transform: translateY(-10px)
+            .blogs__eye, .news__eye
+                opacity: 1
+            .blogs__pic, .news__pic
+                img
+                    opacity: 0.5
+                    transform: scale(1.1)
+    &__pic
+        width: 100%
+        clip-path: polygon(54% 4%, 93% 4%, 100% 14%, 100% 33%, 100% 71%, 100% 100%, 0 100%, 0 9%, 6% 0, 45% 0)
+        overflow: hidden
+        margin-bottom: 20px
+        img
+            width: 100%
+    &__eye
+        opacity: 0
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        z-index: 2
+        svg
+            width: 50px
+            height: auto
+            fill: #00DFFC
+    &__name
+        font-size: 16px
+        font-family: Nasa
+        margin-bottom: 20px
+    &__date
+        font-size: 16px
+        font-family: Nasa
+        margin-bottom: 40px
+
+.post
+    background: url('../images/news-bg.webp') center center/cover no-repeat
+    padding: 160px 0px 0px 0px
+    min-height: 100vh
+    &-news
+        display: none
+    &-blog
+        display: none
+    &__body
+        padding-bottom: 60px
+    &__ontitle
+        font-size: 28px
+        text-align: center
+        font-family: Nasa
+    &__picture
+        width: 100%
+        display: flex
+        justify-content: center
+        margin: 40px 0px
+        img
+            max-width: 800px
+            width: 100%
+    &__img
+        max-width: 50%
+        margin: 40px 0px
+        img
+            width: 100%
+        &-little
+            max-width: 20%
+            img
+                border-radius: 22px
+    &__title
+        font-size: 28px
+        line-height: 1.4
+        font-family: Nasa
+        margin-bottom: 20px
+    &__text
+        font-size: 16px
+        font-family: Nasa
+        line-height: 1.4
+        margin-bottom: 20px
+        span
+            font-family: Nasa
+            font-size: inherit
+            font-weight: 700
+        a
+            font-family: Nasa
+            font-size: inherit
+            font-weight: 700
+            color: #00DFFC
+        &-links
+            span
+                margin: 0px 10px
+        &-italic
+            font-style: italic
+        &-date
+            text-align: right
+    ul
+        li
+            font-size: 16px
+            font-family: Nasa
+            line-height: 1.4
+            margin-bottom: 20px
+            padding-left: 30px
+            position: relative
+            &::after
+                position: absolute
+                content: ''
+                width: 6px
+                height: 6px
+                border-radius: 50px
+                background: #fff
+                top: 8px
+                // top: 50%
+                // transform: translateY(-50%)
+                left: 6px
+
+.footer
+    padding-bottom: 20px
+    &__line
+        width: 100%
+        img
+            width: 100%
+            margin-bottom: 20px
+    &__body
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__logo
+        height: 20px
+        img
+            display: none
+            height: 100%
+            filter: brightness(0) invert(1)
+    &__text
+        p
+            font-size: 17px
+            font-family: Nasa
+    &__links
+        display: flex
+        justify-content: flex-end
+        align-items: center
+        gap: 10px
+    &__link
+        display: none
+        img
+            width: 40px
+
+@keyframes rise
+    from 
+        opacity: 0
+    to 
+        opacity: 1
+
+.wait
+    position: fixed
+    width: 100%
+    height: 100vh
+    top: 0px
+    left: 0px
+    background: url('../images/first_bg.webp')
+    display: flex
+    justify-content: center
+    align-items: center
+    &__body
+        width: 300px
+        position: relative
+    &__circle
+        width: 70%
+        opacity: 0.7
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        animation: 2s linear 0s infinite alternate rise
+    &__logo
+        width: 80%
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%) scale(1)
+
+@import 'media'
