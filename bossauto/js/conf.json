@@ -1,0 +1,30 @@
+server {
+    listen 80;
+    server_name bossauto.cc www.bossauto.cc;
+    return 301 https://$host$request_uri;
+}
+
+# HTTPS (SSL)
+server {
+    listen 443 ssl;
+    server_name bossauto.cc www.bossauto.cc;
+
+    root /var/www/myproject;
+    index index.html;
+
+    ssl_certificate /etc/ssl/certs/bossauto/fullchain.pem;
+    ssl_certificate_key /etc/ssl/private/bossauto.cc.key;
+
+    location /api/ {
+        proxy_pass http://localhost:3001;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}
