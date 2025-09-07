@@ -1,0 +1,60 @@
+@media ( max-width: 900px )
+    .panel
+        &__body
+            padding: 20px
+    .email
+        &__profile
+            flex-wrap: wrap
+        &__area
+            &-login, &-password, &-link, &-screen
+                width: 49%
+
+@media ( max-width: 600px )
+    *
+        font-size: 14px
+    .main
+        padding: 80px 10px
+    .panel
+        &__body
+            border-radius: 20px
+            padding: 20px 10px
+        &__title
+            line-height: 1.4
+            margin-bottom: 10px
+        &__tabs
+            gap: 6px
+            padding: 0px
+        &__tab
+            font-size: 14px
+            margin-bottom: 6px
+            border-radius: 20px
+    .email
+        &__start
+            &-input, &-button
+                width: 49%
+                padding: 20px
+            &-button
+                width: 30%
+            &-input
+                width: 68%
+    .google, .yandex, .rkn
+        &__input
+            &-links, &-text
+                width: 100%
+                min-height: 200px
+
+@media ( max-width: 600px )
+    .log-open
+        width: 200px
+    .log
+        &__body
+            width: calc( 100% - 20px )
+            padding: 10px
+            padding-top: 60px
+        &__title
+            font-size: 14px
+            margin-bottom: 20px
+    .email
+        &__area
+            &-login, &-password, &-link, &-screen, &-recipient, &-subject
+                width: 100%
