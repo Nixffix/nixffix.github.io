@@ -1,7 +1,7 @@
 // Получаем список авто
 
 function getArray(value) {
-    fetch('../js/vehicles.json')
+    fetch('../bossauto/js/vehicles.json')
     // fetch('http://localhost:3001/api/vehicles')
     // fetch('/api/vehicles')
     .then(res => {
@@ -968,5 +968,6 @@ setTimeout( () => {
 
         localStorage.setItem("BossAutoClosedHelp", "yes")
     }
+
 
 }, 10000 )
