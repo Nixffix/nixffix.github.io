@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="shortcut icon" type="image/svg" href="images/favicon.png">
+    <title>Купить сумку</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.min.css?v=21052025">
+</head>
+<body>
+
+    <div class="loading">
+
+        <div class="loading__logo">
+            <p>Brand</p>
+            <div class="loading__image"><img src="images/favicon.png" alt="logo"></div>
+            <span>Brand Boutique</span>
+            <p>Boutique</p>
+        </div>
+
+    </div>
+
+    <header class="header">
+        
+        <div class="header__top">
+            <div class="container">
+                <a href="popular.html" class="header__link"><p>Популярные модели</p></a>
+                <a href="about.html" class="header__link"><p>О нас</p></a>
+                <a href="index.html" class="header__logo">
+                    <p>Brand</p>
+                    <div class="header__image"><img src="images/favicon.png" alt="logo"></div>
+                    <p>Boutique</p>
+                </a>
+                <a href="help.html" class="header__link"><p>Информация для покупателя</p></a>
+                <a href="faq.html" class="header__link"><p>FAQ</p></a>
+            </div>
+        </div>
+
+        <div class="header__bottom">
+            <div class="container">
+
+                <div class="header__left">
+                    <div class="header__search">
+                        <div class="header__svg">
+                            <img src="images/find.png" alt="icon">
+                        </div>
+                        <input type="text" class="header__input" placeholder="Поиск">
+
+                        <div class="header__list">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header__center"><span>//</span>Скидка 10% на первый заказ<span>//</span></div>
+
+                <div class="header__buttons">
+                    <a href="contact.html" class="header__contact">
+                        <img src="images/chat.png" alt="icon">
+                    </a>
+                    
+                    <div class="header__bag">
+                        <img src="images/bag.png" alt="icon">
+                    </div>
+
+                    <div class="header__menu">
+                        <img src="images/list.png" alt="icon">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+    <main class="main">
+
+        <div class="container">
+
+            <div class="nav">
+                <a href="index.html">Главная</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/></svg>
+                <a href="index.html#catalog">Каталог</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/></svg>
+                <a href="index.html#catalog">[Бренд]</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/></svg>
+                <p>[Сумка]</p>
+            </div>
+
+            <section class="product">
+
+                <div class="product__empty">
+                    <p>=(</p>
+                    <span>Товар не найден</span>
+                </div>
+
+                <div class="product__left">
+
+                    <div class="swiper main-slider">
+                        <div class="swiper-wrapper" id="mainSliderWrapper"></div>
+                    </div>
+
+                    <div class="swiper thumb-slider">
+                        <div class="swiper-wrapper" id="thumbSliderWrapper"></div>
+                    </div>
+
+                    <div class="product__nmbrs slider-counter" id="sliderCounter">1/1</div>
+
+                </div>
+
+                <div class="product__right">
+                    <div class="product__brand">[Бренд]</div>
+                    <div class="product__model">[Название модели] - [Цвет]</div>
+                    <div class="product__category">[Список категорий]</div>
+                    <div class="product__price">[Цена] ₽</div>
+                    <div class="product__buttons">
+                        <div class="product__add">
+                            <p>Добавить в корзину</p>
+                            <img src="images/bag2.png" alt="icon">
+                        </div>
+                        <div class="product__status">
+                            <div class="product__circle"></div>
+                            <div class="product__aval">[Статус наличия]</div>
+                        </div>
+                    </div>
+                    <div class="product__label">Доступные цвета:</div>
+                    <div class="product__colors">
+                        <!-- <a href="#"><img src="images/item/bimba/mini/black/1.webp" alt="photo"><p>[Цвет сумки]</p></a>
+                        <a href="#"><img src="images/item/bimba/mini/black/1.webp" alt="photo"><p>[Цвет сумки]</p></a> -->
+                    </div>
+
+                    <div class="product__info">
+                        <div class="product__label">Описание:</div>
+                        <div class="product__text">[Текст описания]</div>
+                    </div>
+
+                    <div class="product__char">
+                        <div class="product__label">Характеристики:</div>
+                        <!-- <div class="product__text">[Текст характеристики]</div>
+                        <div class="product__text">[Текст характеристики]</div>
+                        <div class="product__text">[Текст характеристики]</div> -->
+                    </div>
+
+                    <div class="product__size">
+                        <div class="product__label">Размеры:</div>
+                        <!-- <div class="product__text">[Текст размера]</div>
+                        <div class="product__text">[Текст размера]</div>
+                        <div class="product__text">[Текст размера]</div> -->
+                    </div>
+
+                    <div class="review">
+                        <div class="review__title"><p>Отзывы о товаре </p>(<span>0</span>)</div>
+                        <div class="review__empty">Отзывов пока нет</div>
+                        <div class="review__block">
+
+                            <!-- <div class="review__card">
+                                <div class="review__name">[Имя автора]</div>
+                                <div class="review__color">[Цвет товара]</div>
+                                <div class="review__date">[Дата написания отзыва]</div>
+                                <div class="review__rating">[Оценка]</div>
+                                <div class="review__text">[Текст отзыва]</div>
+                                <div class="review__delete"><img src="images/close-button.png" alt="close"></div>
+                                <div class="review__del">
+                                    <p>Отзыв удалён</p>
+                                    <img src="images/delete.png" alt="trash">
+                                </div>
+                            </div>
+
+                            <div class="review__card">
+                                <div class="review__name">[Имя автора]</div>
+                                <div class="review__color">[Цвет товара]</div>
+                                <div class="review__date">[Дата написания отзыва]</div>
+                                <div class="review__rating">[Оценка]</div>
+                                <div class="review__text">[Текст отзыва]</div>
+                                <div class="review__delete"><img src="images/close-button.png" alt="close"></div>
+                                <div class="review__del">
+                                    <p>Отзыв удалён</p>
+                                    <img src="images/delete.png" alt="trash">
+                                </div>
+                            </div>
+
+                            <div class="review__card">
+                                <div class="review__name">[Имя автора]</div>
+                                <div class="review__color">[Цвет товара]</div>
+                                <div class="review__date">[Дата написания отзыва]</div>
+                                <div class="review__rating">[Оценка]</div>
+                                <div class="review__text">[Текст отзыва]</div>
+                                <div class="review__delete"><img src="images/close-button.png" alt="close"></div>
+                                <div class="review__del">
+                                    <p>Отзыв удалён</p>
+                                    <img src="images/delete.png" alt="trash">
+                                </div>
+                            </div>
+
+                            <div class="review__card">
+                                <div class="review__name">[Имя автора]</div>
+                                <div class="review__color">[Цвет товара]</div>
+                                <div class="review__date">[Дата написания отзыва]</div>
+                                <div class="review__rating">[Оценка]</div>
+                                <div class="review__text">[Текст отзыва]</div>
+                                <div class="review__delete"><img src="images/close-button.png" alt="close"></div>
+                                <div class="review__del">
+                                    <p>Отзыв удалён</p>
+                                    <img src="images/delete.png" alt="trash">
+                                </div>
+                            </div> -->
+
+                        </div>
+                        <div class="review__button">Написать отзыв</div>
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+    <div class="rev">
+        <div class="rev__body">
+
+            <div class="rev__load"><img src="images/loading.gif" alt="loading"></div>
+
+            <div class="rev__close">
+                <img src="images/close-button.png" alt="close">
+            </div>
+
+            <div class="rev__title">Оставить отзыв</div>
+
+            <input type="text" class="rev__input" placeholder="Ваше имя">
+            <input type="text" class="rev__input" placeholder="E-Mail">
+
+            <div class="rev__label">Ваша оценка</div>
+            <div class="rev__stars">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+            </div>
+
+            <textarea class="rev__textarea" placeholder="Ваш отзыв"></textarea>
+
+            <div class="rev__message">[Текст сообщения]</div>
+
+            <div class="rev__button">Отправить отзыв</div>
+
+        </div>
+
+        <div class="rev__success">
+            <div class="rev__txt">Ваш отзыв был отправлен ✅</div>
+            <div class="rev__go">Вернуться</div>
+        </div>
+    </div>
+
+    <div class="bag">
+
+        <div class="bag__body">
+
+            <div class="bag__close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                </svg>
+            </div>
+
+            <div class="bag__title">Ваша корзина</div>
+
+            <div class="bag__view">
+
+                <div class="bag__block">
+                </div>
+
+                <div class="bag__summ">Сумма: 0 ₽</div>
+                <a href="order.html" class="bag__button">Оформить заказ</a>
+
+            </div>
+
+            <div class="bag__empty">В корзине пока пусто</div>
+
+        </div>
+
+    </div>
+
+    <div class="menu">
+
+        <div class="menu__body">
+
+            <div class="menu__close">
+                <img src="images/close-button.png" alt="icon">
+            </div>
+
+            <a href="about.html" class="menu__link">О нас</a>
+            <a href="popular.html" class="menu__link">Популярные  моделей</a>
+            <a href="index.html#catalog" class="menu__link">Все сумки</a>
+            <div class="menu__category">
+                <!-- <a href="#" class="menu__link">Сумки кросс-боди</a>
+                <a href="#" class="menu__link">Шопперы</a>
+                <a href="#" class="menu__link">Мини-сумки</a> -->
+            </div>
+            <a href="help.html" class="menu__link">Информация для покупателя</a>
+            <a href="faq.html" class="menu__link">Вопросы и ответы</a>
+
+            <div class="menu__social">
+                <a href="https://t.me/BrandBoutique25"><img src="images/social3.png" alt="icon"></a>
+                <a href="https://wa.me/message/4OHGRAKBNAJOI1"><img src="images/social2.png" alt="icon"></a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="sale">
+
+        <div class="sale__body">
+
+            <div class="sale__close">
+                <img src="images/close-button.png" alt="close">
+            </div>
+
+            <p>Скидка -10% на всё — только несколько дней!</p>
+            <span>Успей оформить заказ, пока акция ещё действует!</span>
+            <span>Поторопись — время ограничено!</span>
+
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__body">
+
+                <div class="footer__card">
+                    <a href="index.html" class="footer__logo">
+                        <div class="footer__photo">
+                            <img src="images/favicon.png" alt="logo">
+                        </div>
+                        <div class="footer__info">
+                            <p>Brand<br>Boutique</p>
+                        </div>
+                    </a>
+
+                    <div class="footer__socials">
+                        <a href="mailto:brandboutiquesup@gmail.com" class="footer__social">
+                            <img src="images/social1.png" alt="social">
+                        </a>
+                        <a href="https://wa.me/message/4OHGRAKBNAJOI1" class="footer__social">
+                            <img src="images/social2.png" alt="social">
+                        </a>
+                        <a href="https://t.me/BrandBoutique25" class="footer__social">
+                            <img src="images/social3.png" alt="social">
+                        </a>
+                    </div>
+
+                    <a href="privacy.html" class="footer__link">Политика конфиденциальности</a>
+                </div>
+
+                <div class="footer__card">
+                    <div class="footer__name">Каталог</div>
+                    <div class="footer__brand">
+
+                    </div>
+                </div>
+
+                <div class="footer__card">
+                    <div class="footer__name">Для покупателей</div>
+                    <a href="help.html" class="footer__link">Информация для покупателя</a>
+                    <a href="refund.html" class="footer__link">Обмен и возврат</a>
+                    <a href="https://t.me/BrandBoutique24" class="footer__link">Отзывы клиентов</a>
+                </div>
+
+                <div class="footer__card">
+                    <div class="footer__name">Контакты</div>
+                    <a href="about.html" class="footer__link">О нас</a>
+                    <a href="contact.html" class="footer__link">Контакты</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="footer__text">
+                    <p>Все права защищены © 2025 Brand Boutique</p>
+                    <p>Брендовая одежда с доставкой по Санкт-Петербургу и всей России</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js?v=21052025"></script>
+</body>
+</html>

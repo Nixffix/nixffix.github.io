@@ -1,0 +1,1675 @@
+[
+    {
+        "product_id": 1035,
+        "brand": "Vivienne Westwood",
+        "name": "Hazel Medium",
+        "color": "Orange Tartan",
+        "category": [
+            "Сумки среднего размера",
+            "Сумки кросс-боди"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 40000,
+        "newprice": 25000,
+        "info": [
+            "Наша сумка Hazel Medium — это классика Vivienne Westwood, которая  появляется во многих коллекциях на протяжении всей истории бренда. В этом сезоне изделие предлагается в мотиве «McHarris» с  яркими оттенками и классическими деталями фурнитуры, с подкладкой в виде культового дизайна Union Jack, впервые представленного в коллекции «Anglophilia» сезона осень-зима 2002 года."
+        ],
+        "char": [
+            "Мягкий силуэт в стиле багета",
+            "Магнитная застежка-кнопка",
+            "Серебристая фурнитура",
+            "Съёмные ремни для разных вариантов ношения"
+        ],
+        "size": [
+            "Ширина - 15 см",
+            "Высота - 26 см",
+            "Глубина - 11,5 см"
+        ],
+        "photo": [
+            "images/item/viviennewestwood/hazel/tartan/1.jpg",
+            "images/item/viviennewestwood/hazel/tartan/2.jpg",
+            "images/item/viviennewestwood/hazel/tartan/3.jpg",
+            "images/item/viviennewestwood/hazel/tartan/4.jpg",
+            "images/item/viviennewestwood/hazel/tartan/5.jpg"
+        ]
+    },
+    {
+        "product_id": 1036,
+        "brand": "Vivienne Westwood",
+        "name": "Hazel Medium",
+        "color": "Candy Tartan",
+        "category": [
+            "Сумки среднего размера",
+            "Сумки кросс-боди"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 40000,
+        "newprice": 25000,
+        "info": [
+            "Наша сумка Hazel Medium — это классика Vivienne Westwood, которая  появляется во многих коллекциях на протяжении всей истории бренда. В этом сезоне изделие предлагается в мотиве «McHarris» с  яркими оттенками и классическими деталями фурнитуры, с подкладкой в виде культового дизайна Union Jack, впервые представленного в коллекции «Anglophilia» сезона осень-зима 2002 года."
+        ],
+        "char": [
+            "Мягкий силуэт в стиле багета",
+            "Магнитная застежка-кнопка",
+            "Серебристая фурнитура",
+            "Съёмные ремни для разных вариантов ношения"
+        ],
+        "size": [
+            "Ширина - 15 см",
+            "Высота - 26 см",
+            "Глубина - 11,5 см"
+        ],
+        "photo": [
+            "images/item/viviennewestwood/hazel/candy/1.webp",
+            "images/item/viviennewestwood/hazel/candy/2.webp",
+            "images/item/viviennewestwood/hazel/candy/3.webp",
+            "images/item/viviennewestwood/hazel/candy/4.webp",
+            "images/item/viviennewestwood/hazel/candy/5.webp",
+            "images/item/viviennewestwood/hazel/candy/6.webp",
+            "images/item/viviennewestwood/hazel/candy/7.webp"
+        ]
+    },
+    {
+        "product_id": 1037,
+        "brand": "Vivienne Westwood",
+        "name": "XL Hazel",
+        "color": "Black",
+        "category": [
+            "Шопперы"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 47000,
+        "newprice": 28000,
+        "info": [
+            "Сумочка XL Hazel - это последнее дополнение в фирменном ассортименте Hazel в этом сезоне от Vivienne Westwood. Изделие получило негабаритный силуэт в форме багета. "
+        ],
+        "char": [
+            "Имеет магнитную шпильку",
+            "Увеличенный силуэт",
+            "Боковые карманы",
+            "Съемный ремешок",
+            "Сумку можно носить на плече"
+        ],
+        "size": [
+            "Ширина - 40 см",
+            "Высота - 25 см",
+            "Глубина - 19 см"
+        ],
+        "photo": [
+            "images/item/viviennewestwood/hazelxl/black/1.jpg",
+            "images/item/viviennewestwood/hazelxl/black/2.jpg",
+            "images/item/viviennewestwood/hazelxl/black/3.jpg",
+            "images/item/viviennewestwood/hazelxl/black/4.jpg"
+        ]
+    },
+    {
+        "product_id": 1038,
+        "brand": "Vivienne Westwood",
+        "name": "XL Hazel",
+        "color": "MC HAZE",
+        "category": [
+            "Шопперы"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 47000,
+        "newprice": 28000,
+        "info": [
+            "Сумочка XL Hazel - это последнее дополнение в фирменном ассортименте Hazel в этом сезоне от Vivienne Westwood. Изделие получило негабаритный силуэт в форме багета. "
+        ],
+        "char": [
+            "Имеет магнитную шпильку",
+            "Увеличенный силуэт",
+            "Боковые карманы",
+            "Съемный ремешок",
+            "Сумку можно носить на плече"
+        ],
+        "size": [
+            "Ширина - 40 см",
+            "Высота - 25 см",
+            "Глубина - 19 см"
+        ],
+        "photo": [
+            "images/item/viviennewestwood/hazelxl/mchaze/1.jpeg",
+            "images/item/viviennewestwood/hazelxl/mchaze/2.jpeg",
+            "images/item/viviennewestwood/hazelxl/mchaze/3.jpeg",
+            "images/item/viviennewestwood/hazelxl/mchaze/4.jpeg",
+            "images/item/viviennewestwood/hazelxl/mchaze/5.jpeg"
+        ]
+    },
+    {
+        "product_id": 1039,
+        "brand": "Vivienne Westwood",
+        "name": "Betty mini",
+        "color": "Vintage",
+        "category": [
+            "Сумки тоут",
+            "Сумки среднего размера"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 45000,
+        "newprice": 25000,
+        "info": [
+            "Сумка Vivienne Westwood Betty Mini vintage украшена элементами бондажа, напоминающими коллекцию «Эротические зоны» весны-лета 1995 года. Внутренняя часть без подкладки. Металлический логотип бренда. Текстура крокодильей кожи"
+        ],
+        "char": [
+            "Внутренняя часть без подкладки",
+            "Металлический логотип бренда",
+            "Текстура крокодильей кожи",
+            "Сделано в Италии",
+            "Внутренний карман для банковской карты",
+            "Силуэт с верхней ручкой"
+        ],
+        "size": [
+            "Ширина - 17 см",
+            "Высота - 25 см",
+            "Глубина - 9 см",
+            "Съемный ремешок-цепочка - 114 см"
+        ],
+        "photo": [
+            "images/item/viviennewestwood/betty-mini/vintage/1.jpg",
+            "images/item/viviennewestwood/betty-mini/vintage/2.jpg",
+            "images/item/viviennewestwood/betty-mini/vintage/3.jpg",
+            "images/item/viviennewestwood/betty-mini/vintage/4.jpeg"
+        ]
+    },
+    {
+        "product_id": 1041,
+        "brand": "Vivienne Westwood",
+        "name": "Betty mini",
+        "color": "Black",
+        "category": [
+            "Сумки тоут",
+            "Сумки среднего размера"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 45000,
+        "newprice": 25000,
+        "info": [
+            "Сумка Vivienne Westwood Betty Mini украшена элементами бондажа, напоминающими коллекцию «Эротические зоны» весны-лета 1995 года."
+        ],
+        "char": [
+            "Внутренняя часть без подкладки",
+            "Металлический логотип бренда",
+            "Сделано в Италии",
+            "Внутренний карман для банковской карты",
+            "Силуэт с верхней ручкой"
+        ],
+        "size": [
+            "Ширина - 17 см",
+            "Высота - 25 см",
+            "Глубина - 9 см",
+            "Съемный ремешок-цепочка - 114 см"
+        ],
+        "photo": [
+            "images/item/viviennewestwood/betty-mini/black/1.jpg",
+            "images/item/viviennewestwood/betty-mini/black/2.jpg",
+            "images/item/viviennewestwood/betty-mini/black/3.jpg",
+            "images/item/viviennewestwood/betty-mini/black/4.jpg"
+        ]
+    },
+    {
+        "product_id": 1043,
+        "brand": "Vivienne Westwood",
+        "name": "Charm Frame Purse",
+        "color": "Black",
+        "category": [
+            "Сумки среднего размера"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 34000,
+        "newprice": 28000,
+        "info": [
+            "Сумка-клатч Vivienne Westwood Charm Frame предлагает свежую интерпретацию классической сумки Granny Frame из мягкой кожи. Ее дизайн демонстрирует недавно разработанный силуэт полумесяца."
+        ],
+        "char": [
+            "В комплекте идет обвес",
+            "Удобная застежка сверху"
+        ],
+        "size": [
+            "Ширина - 16 см",
+            "Высота - 24 см",
+            "Глубина - 5 см"
+        ],
+        "photo": [
+            "images/item/viviennewestwood/charm/black/1.jpg",
+            "images/item/viviennewestwood/charm/black/2.jpg",
+            "images/item/viviennewestwood/charm/black/3.jpg",
+            "images/item/viviennewestwood/charm/black/4.jpg",
+            "images/item/viviennewestwood/charm/black/5.jpg"
+        ]
+    },
+    {
+        "product_id": 1044,
+        "brand": "Vivienne Westwood",
+        "name": "Hazel Handbag",
+        "color": "Croco Pink",
+        "category": [
+            "Сумки кросс-боди",
+            "Сумки среднего размера"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 57000,
+        "newprice": 30000,
+        "info": [
+            "Сумка Medium Hazel возвращается в этом сезоне в обновлённом варианте — с блестящей кожаной отделкой и тиснением под крокодила. Внутри — фирменная подкладка в полоску, впервые представленная в коллекции Vivienne Westwood Gold Label осень-зима 2015. В комплект входит съёмный ремешок-цепочка, благодаря которому сумку можно носить как кроссбоди."
+        ],
+        "char": [
+            "Фурнитура серебристого цвета",
+            "Магнитная застёжка-клапан с кнопкой",
+            "Внутреннее тиснение с фирменными элементами",
+            "Съёмные ремни для разных вариантов ношения",
+            "Телячья кожа 100%"
+        ],
+        "size": [
+            "Ширина - 11 см",
+            "Высота - 19 см",
+            "Глубина - 8,5 см"
+        ],
+        "photo": [
+            "images/item/viviennewestwood/hazelhandbag/crocopink/1.webp",
+            "images/item/viviennewestwood/hazelhandbag/crocopink/2.webp",
+            "images/item/viviennewestwood/hazelhandbag/crocopink/3.webp",
+            "images/item/viviennewestwood/hazelhandbag/crocopink/4.webp"
+        ]
+    },
+    {
+        "product_id": 1045,
+        "brand": "Vivienne Westwood",
+        "name": "Colette Tartan Tote Bag",
+        "color": "Pink",
+        "category": [
+            "Сумки тоут",
+            "Шопперы"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 55000,
+        "newprice": 30000,
+        "info": [
+            "Сумка-тоут с розовым/многоцветным клетчатым узором, с внутренней нашивкой с логотипом. Имеет основное отделение, фирменную бляшку Orb, металлические ножки, застёжку-молнию сверху, внутренний накладной карман и две верхние ручки."
+        ],
+        "char": [
+            "Внешняя часть: Телячья кожа 100%"
+        ],
+        "size": [
+            "Ширина - 42 см",
+            "Высота - 29 см",
+            "Глубина - 14 см",
+            "Ремешок - 23 см"
+        ],
+        "photo": [
+            "images/item/viviennewestwood/colette/pink/1.png",
+            "images/item/viviennewestwood/colette/pink/2.png",
+            "images/item/viviennewestwood/colette/pink/3.png",
+            "images/item/viviennewestwood/colette/pink/4.png",
+            "images/item/viviennewestwood/colette/pink/5.png"
+        ]
+    },
+    {
+        "product_id": 1015,
+        "brand": "Cos",
+        "name": "Oversize Quilted Shoulder Bag",
+        "color": "Black",
+        "category": [
+            "Сумки кросс-боди",
+            "Шопперы"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 15000,
+        "newprice": 10000,
+        "info": [
+            "Стеганая сумка - финальный штрих вашего образа, который может быть как гармоничным дополнением, так и ярким акцентом. Эту большую модель можно носить через плечо и на плече. Аксессуар имеет характерный стеганый узор и изготовлен из 100% переработанного материала."
+        ],
+        "char": [
+            "Застежка-молния",
+            "Внешний материал: 100 % переработанный полиэстер",
+            "Подкладка: 100 % хлопок",
+            "Тип аксессуара: Сумка-кроссбоди, Сумка через плечо"
+        ],
+        "size": [
+            "Длина - 40,2 см",
+            "Высота - 39,6 см",
+            "Глубина - 22 см"
+        ],
+        "photo": [
+            "images/item/cos/large/black/1.avif",
+            "images/item/cos/large/black/2.avif",
+            "images/item/cos/large/black/3.avif",
+            "images/item/cos/large/black/4.avif",
+            "images/item/cos/large/black/5.avif",
+            "images/item/cos/large/black/6.avif",
+            "images/item/cos/large/black/7.avif",
+            "images/item/cos/large/black/8.avif",
+            "images/item/cos/large/black/9.avif",
+            "images/item/cos/large/black/10.avif",
+            "images/item/cos/large/black/11.avif"
+        ]
+    },
+    {
+        "product_id": 1016,
+        "brand": "Cos",
+        "name": "Oversize Quilted Shoulder Bag",
+        "color": "Light Beige",
+        "category": [
+            "Сумки кросс-боди",
+            "Шопперы"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 15000,
+        "newprice": 10000,
+        "info": [
+            "Стеганая сумка - финальный штрих вашего образа, который может быть как гармоничным дополнением, так и ярким акцентом. Эту большую модель можно носить через плечо и на плече. Аксессуар имеет характерный стеганый узор и изготовлен из 100% переработанного материала."
+        ],
+        "char": [
+            "Застежка-молния",
+            "Внешний материал: 100 % переработанный полиэстер",
+            "Подкладка: 100 % хлопок",
+            "Тип аксессуара: Сумка-кроссбоди, Сумка через плечо"
+        ],
+        "size": [
+            "Длина - 40,2 см",
+            "Высота - 39,6 см",
+            "Глубина - 22 см"
+        ],
+        "photo": [
+            "images/item/cos/large/light-beige/1.avif",
+            "images/item/cos/large/light-beige/2.avif",
+            "images/item/cos/large/light-beige/3.avif",
+            "images/item/cos/large/light-beige/4.avif",
+            "images/item/cos/large/light-beige/5.avif",
+            "images/item/cos/large/light-beige/6.avif",
+            "images/item/cos/large/light-beige/7.avif"
+        ]
+    },
+    {
+        "product_id": 1017,
+        "brand": "Cos",
+        "name": "Oversize Quilted Shoulder Bag",
+        "color": "Burgunderrot",
+        "category": [
+            "Сумки кросс-боди",
+            "Шопперы"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 15000,
+        "newprice": 10000,
+        "info": [
+            "Стеганая сумка - финальный штрих вашего образа, который может быть как гармоничным дополнением, так и ярким акцентом. Эту большую модель можно носить через плечо и на плече. Аксессуар имеет характерный стеганый узор и изготовлен из 100% переработанного материала."
+        ],
+        "char": [
+            "Застежка-молния",
+            "Внешний материал: 100 % переработанный полиэстер",
+            "Подкладка: 100 % хлопок",
+            "Тип аксессуара: Сумка-кроссбоди, Сумка через плечо"
+        ],
+        "size": [
+            "Длина - 40,2 см",
+            "Высота - 39,6 см",
+            "Глубина - 22 см"
+        ],
+        "photo": [
+            "images/item/cos/large/burgunderrot/1.avif",
+            "images/item/cos/large/burgunderrot/2.avif",
+            "images/item/cos/large/burgunderrot/3.webp",
+            "images/item/cos/large/burgunderrot/4.webp",
+            "images/item/cos/large/burgunderrot/5.avif",
+            "images/item/cos/large/burgunderrot/6.avif",
+            "images/item/cos/large/burgunderrot/7.avif"
+        ]
+    },
+    {
+        "product_id": 1018,
+        "brand": "Cos",
+        "name": "Quilted Bag",
+        "color": "Black",
+        "category": [
+            "Сумки кросс-боди",
+            "Шопперы",
+            "Сумки среднего размера",
+            "Сумки хобо"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 12000,
+        "newprice": 7500,
+        "info": [
+            "Стеганая сумка - финальный штрих вашего образа, который может быть как гармоничным дополнением, так и ярким акцентом. Эту большую модель можно носить на плече или на руке. Аксессуар имеет характерный стеганый узор и изготовлен из 100% переработанного материала."
+        ],
+        "char": [
+            "Цвет: Черный, Однотонный",
+            "Материал: Полиэстер",
+            "Застежка-молния",
+            "Состав: 100% переработанный полиэстер",
+            "Подкладка: 100% хлопок"
+        ],
+        "size": [
+            "Длина - 24 см",
+            "Высота - 23,5 см",
+            "Ширина - 8,5 см"
+        ],
+        "photo": [
+            "images/item/cos/medium/black/1.webp",
+            "images/item/cos/medium/black/2.webp",
+            "images/item/cos/medium/black/3.webp",
+            "images/item/cos/medium/black/4.webp",
+            "images/item/cos/medium/black/5.webp",
+            "images/item/cos/medium/black/6.webp",
+            "images/item/cos/medium/black/7.webp",
+            "images/item/cos/medium/black/8.webp"
+        ]
+    },
+    {
+        "product_id": 1019,
+        "brand": "Cos",
+        "name": "Quilted Mini-Bag",
+        "color": "Black",
+        "category": [
+            "Мини-сумки"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 10000,
+        "newprice": 6000,
+        "info": [
+            "Один из наших любимых аксессуаров, стеганая сумка, теперь доступна и в маленьком размере - идеальный спутник!"
+        ],
+        "char": [
+            "Внешний материал: 100 % переработанный полиэстер",
+            "Подкладка: 100 % хлопок",
+            "Тип аксессуара: Сумка на руку"
+        ],
+        "size": [
+            "Длина - 17 см",
+            "Высота - 14 см",
+            "Ширина - 6,5 см"
+        ],
+        "photo": [
+            "images/item/cos/mini/black/1.avif",
+            "images/item/cos/mini/black/2.avif",
+            "images/item/cos/mini/black/3.avif",
+            "images/item/cos/mini/black/4.avif",
+            "images/item/cos/mini/black/5.avif",
+            "images/item/cos/mini/black/6.avif",
+            "images/item/cos/mini/black/7.avif",
+            "images/item/cos/mini/black/8.avif",
+            "images/item/cos/mini/black/9.avif"
+        ]
+    },
+    {
+        "product_id": 1020,
+        "brand": "Cos",
+        "name": "Quilted Mini-Bag",
+        "color": "Ercu",
+        "category": [
+            "Мини-сумки"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 10000,
+        "newprice": 6000,
+        "info": [
+            "Один из наших любимых аксессуаров, стеганая сумка, теперь доступна и в маленьком размере - идеальный спутник!"
+        ],
+        "char": [
+            "Внешний материал: 100 % переработанный полиэстер",
+            "Подкладка: 100 % хлопок",
+            "Тип аксессуара: Сумка на руку"
+        ],
+        "size": [
+            "Длина - 17 см",
+            "Высота - 14 см",
+            "Ширина - 6,5 см"
+        ],
+        "photo": [
+            "images/item/cos/mini/ercu/1.avif",
+            "images/item/cos/mini/ercu/3.avif",
+            "images/item/cos/mini/ercu/5.avif",
+            "images/item/cos/mini/ercu/7.avif",
+            "images/item/cos/mini/ercu/8.avif",
+            "images/item/cos/mini/ercu/9.avif"
+        ]
+    },
+    {
+        "product_id": 1001,
+        "brand": "JW Pei",
+        "name": "Tessa Crushed Shoulder Bag",
+        "color": "Black",
+        "category": [
+            "Сумки кросс-боди",
+            "Сумки хобо",
+            "Сумки среднего размера"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 15000,
+        "newprice": 10000,
+        "info": [
+            "null"
+        ],
+        "char": [
+            "Основной материал：Веганская кожа",
+            "Материал подкладки：Полиэстер",
+            "Состаренная серебряная фурнитура",
+            "Можно носить на плече / кроссбоди",
+            "Ремешок регулируется под удобную длину",
+            "1 внутренний карман на молнии и 1 обычный карман",
+            "Подходит для iPhone 14 Pro Max и все размеры телефонов, которые меньше"
+        ],
+        "size": [
+            "Высота - 19 см",
+            "Длина - 30 см",
+            "Ширина - 6 см",
+            "Длина плечевого ремня - 26 см ~ 57 см"
+        ],
+        "photo": [
+            "images/item/jwpei/tessa/black/1.webp",
+            "images/item/jwpei/tessa/black/2.webp",
+            "images/item/jwpei/tessa/black/3.webp",
+            "images/item/jwpei/tessa/black/4.webp",
+            "images/item/jwpei/tessa/black/5.webp"
+        ]
+    },
+    {
+        "product_id": 1002,
+        "brand": "JW Pei",
+        "name": "Tessa Crushed Shoulder Bag",
+        "color": "White",
+        "category": [
+            "Сумки кросс-боди",
+            "Сумки хобо",
+            "Сумки среднего размера"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 15000,
+        "newprice": 10000,
+        "info": [
+            "null"
+        ],
+        "char": [
+            "Основной материал：Веганская кожа",
+            "Материал подкладки：Полиэстер",
+            "Состаренная серебряная фурнитура",
+            "Можно носить на плече / кроссбоди",
+            "Ремешок регулируется под удобную длину",
+            "1 внутренний карман на молнии и 1 обычный карман",
+            "Подходит для iPhone 14 Pro Max и все размеры телефонов, которые меньше"
+        ],
+        "size": [
+            "Высота - 19 см",
+            "Длина - 30 см",
+            "Ширина - 6 см",
+            "Длина плечевого ремня - 26 см ~ 57 см"
+        ],
+        "photo": [
+            "images/item/jwpei/tessa/white/1.webp",
+            "images/item/jwpei/tessa/white/2.webp",
+            "images/item/jwpei/tessa/white/3.webp",
+            "images/item/jwpei/tessa/white/4.webp",
+            "images/item/jwpei/tessa/white/5.webp"
+        ]
+    },
+    {
+        "product_id": 1003,
+        "brand": "JW Pei",
+        "name": "Tessa Crushed Shoulder Bag",
+        "color": "Silver",
+        "category": [
+            "Сумки кросс-боди",
+            "Сумки хобо",
+            "Сумки среднего размера"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 15000,
+        "newprice": 10000,
+        "info": [
+            "null"
+        ],
+        "char": [
+            "Основной материал：Веганская кожа",
+            "Материал подкладки：Полиэстер",
+            "Состаренная серебряная фурнитура",
+            "Можно носить на плече / кроссбоди",
+            "Ремешок регулируется под удобную длину",
+            "1 внутренний карман на молнии и 1 обычный карман",
+            "Подходит для iPhone 14 Pro Max и все размеры телефонов, которые меньше"
+        ],
+        "size": [
+            "Высота - 19 см",
+            "Длина - 30 см",
+            "Ширина - 6 см",
+            "Длина плечевого ремня - 26 см ~ 57 см"
+        ],
+        "photo": [
+            "images/item/jwpei/tessa/silver/1.webp",
+            "images/item/jwpei/tessa/silver/2.webp",
+            "images/item/jwpei/tessa/silver/3.webp",
+            "images/item/jwpei/tessa/silver/4.webp",
+            "images/item/jwpei/tessa/silver/5.webp"
+        ]
+    },
+    {
+        "product_id": 1004,
+        "brand": "JW Pei",
+        "name": "Tessa Crushed Shoulder Bag",
+        "color": "Blue",
+        "category": [
+            "Сумки кросс-боди",
+            "Сумки хобо",
+            "Сумки среднего размера"
+        ],
+        "availability": "no",
+        "popular": "no",
+        "price": 15000,
+        "newprice": 15000,
+        "info": [
+            "null"
+        ],
+        "char": [
+            "Основной материал：Веганская кожа",
+            "Материал подкладки：Полиэстер",
+            "Состаренная серебряная фурнитура",
+            "Можно носить на плече / кроссбоди",
+            "Ремешок регулируется под удобную длину",
+            "1 внутренний карман на молнии и 1 обычный карман",
+            "Подходит для iPhone 14 Pro Max и все размеры телефонов, которые меньше"
+        ],
+        "size": [
+            "Высота - 19 см",
+            "Длина - 30 см",
+            "Ширина - 6 см",
+            "Длина плечевого ремня - 26 см ~ 57 см"
+        ],
+        "photo": [
+            "images/item/jwpei/tessa/blue/1.webp",
+            "images/item/jwpei/tessa/blue/2.webp",
+            "images/item/jwpei/tessa/blue/3.webp",
+            "images/item/jwpei/tessa/blue/4.webp",
+            "images/item/jwpei/tessa/blue/5.webp"
+        ]
+    },
+    {
+        "product_id": 1005,
+        "brand": "JW Pei",
+        "name": "Tessa Crushed Shoulder Bag",
+        "color": "Brown",
+        "category": [
+            "Сумки кросс-боди",
+            "Сумки хобо",
+            "Сумки среднего размера"
+        ],
+        "availability": "no",
+        "popular": "no",
+        "price": 15000,
+        "newprice": 15000,
+        "info": [
+            "null"
+        ],
+        "char": [
+            "Основной материал：Веганская кожа",
+            "Материал подкладки：Полиэстер",
+            "Состаренная серебряная фурнитура",
+            "Можно носить на плече / кроссбоди",
+            "Ремешок регулируется под удобную длину",
+            "1 внутренний карман на молнии и 1 обычный карман",
+            "Подходит для iPhone 14 Pro Max и все размеры телефонов, которые меньше"
+        ],
+        "size": [
+            "Высота - 19 см",
+            "Длина - 30 см",
+            "Ширина - 6 см",
+            "Длина плечевого ремня - 26 см ~ 57 см"
+        ],
+        "photo": [
+            "images/item/jwpei/tessa/brown/1.webp",
+            "images/item/jwpei/tessa/brown/2.webp",
+            "images/item/jwpei/tessa/brown/3.webp",
+            "images/item/jwpei/tessa/brown/4.webp"
+        ]
+    },
+    {
+        "product_id": 1006,
+        "brand": "JW Pei",
+        "name": "Joy Crushed Shoulder Bag",
+        "color": "Black",
+        "category": [
+            "Сумки кросс-боди",
+            "Сумки тоут",
+            "Сумки среднего размера"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 17000,
+        "newprice": 11000,
+        "info": [
+            "null"
+        ],
+        "char": [
+            "Основной материал：Веганская кожа",
+            "Материал подкладки：Полиэстер",
+            "Состаренная серебряная фурнитура",
+            "Можно носить на плече / кроссбоди",
+            "1 несъемный (регулируемый) ремешок",
+            "1 внутренний карман",
+            "Подходит для iPhone 14 Pro Max и всех мобильных телефонов меньшего размера"
+        ],
+        "size": [
+            "Длина - 26,5 см",
+            "Высота - 14,5 см",
+            "Ширина - 6 см",
+            "Длина плечевого ремня - 28,5 см ~ 57 см"
+        ],
+        "photo": [
+            "images/item/jwpei/crushed/black/1.webp",
+            "images/item/jwpei/crushed/black/2.webp",
+            "images/item/jwpei/crushed/black/3.webp",
+            "images/item/jwpei/crushed/black/4.webp",
+            "images/item/jwpei/crushed/black/5.webp"
+        ]
+    },
+    {
+        "product_id": 1007,
+        "brand": "JW Pei",
+        "name": "Joy Crushed Shoulder Bag",
+        "color": "White",
+        "category": [
+            "Сумки кросс-боди",
+            "Сумки среднего размера"
+        ],
+        "availability": "no",
+        "popular": "no",
+        "price": 17000,
+        "newprice": 17000,
+        "info": [
+            "null"
+        ],
+        "char": [
+            "Основной материал：Веганская кожа",
+            "Материал подкладки：Полиэстер",
+            "Состаренная серебряная фурнитура",
+            "Можно носить на плече / кроссбоди",
+            "1 несъемный (регулируемый) ремешок",
+            "1 внутренний карман",
+            "Подходит для iPhone 14 Pro Max и всех мобильных телефонов меньшего размера"
+        ],
+        "size": [
+            "Длина - 26,5 см",
+            "Высота - 14,5 см",
+            "Ширина - 6 см",
+            "Длина плечевого ремня - 28,5 см ~ 57 см"
+        ],
+        "photo": [
+            "images/item/jwpei/crushed/white/1.webp",
+            "images/item/jwpei/crushed/white/2.webp",
+            "images/item/jwpei/crushed/white/3.webp",
+            "images/item/jwpei/crushed/white/4.webp",
+            "images/item/jwpei/crushed/white/5.webp"
+        ]
+    },
+    {
+        "product_id": 1008,
+        "brand": "JW Pei",
+        "name": "Joy Shoulder Bag",
+        "color": "Black",
+        "category": [
+            "Сумки кросс-боди",
+            "Сумки среднего размера"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 14000,
+        "newprice": 10000,
+        "info": [
+            "JW PEI Joy Shoulder Bag - это классическая повседневная сумка, созданная из экологичной веганской кожи."
+        ],
+        "char": [
+            "Категория: Сумка через плечо",
+            "Основной материал: Веганская кожа + полиэстер",
+            "Тип кожи: Веганская кожа",
+            "Закрывается на защелку с магнитом",
+            "Отделения: 1 большое отделение",
+            "Боковые карманы: 1 внутренний карман",
+            "Ремешок: отстегивающийся ремешок (регулируемый)",
+            "Фурнитура: Золотая фурнитура",
+            "Материал подкладки: Веганская кожа"
+        ],
+        "size": [
+            "Длина - 26,5 см",
+            "Высота - 14,5 см",
+            "Ширина - 6 см",
+            "Длина плечевого ремня - 28,5 см ~ 57 см"
+        ],
+        "photo": [
+            "images/item/jwpei/joy/black/1.webp",
+            "images/item/jwpei/joy/black/2.webp",
+            "images/item/jwpei/joy/black/3.webp",
+            "images/item/jwpei/joy/black/4.webp",
+            "images/item/jwpei/joy/black/5.webp"
+        ]
+    },
+    {
+        "product_id": 1009,
+        "brand": "JW Pei",
+        "name": "Joy Shoulder Bag",
+        "color": "White",
+        "category": [
+            "Сумки кросс-боди",
+            "Сумки среднего размера"
+        ],
+        "availability": "no",
+        "popular": "no",
+        "price": 14000,
+        "newprice": 14000,
+        "info": [
+            "JW PEI Joy Shoulder Bag - это классическая повседневная сумка, созданная из экологичной веганской кожи."
+        ],
+        "char": [
+            "Категория: Сумка через плечо",
+            "Основной материал: Веганская кожа + полиэстер",
+            "Тип кожи: Веганская кожа",
+            "Закрывается на защелку с магнитом",
+            "Отделения: 1 большое отделение",
+            "Боковые карманы: 1 внутренний карман",
+            "Ремешок: отстегивающийся ремешок (регулируемый)",
+            "Фурнитура: Золотая фурнитура",
+            "Материал подкладки: Веганская кожа"
+        ],
+        "size": [
+            "Длина - 26,5 см",
+            "Высота - 14,5 см",
+            "Ширина - 6 см",
+            "Длина плечевого ремня - 28,5 см ~ 57 см"
+        ],
+        "photo": [
+            "images/item/jwpei/joy/white/1.webp",
+            "images/item/jwpei/joy/white/2.webp",
+            "images/item/jwpei/joy/white/3.webp",
+            "images/item/jwpei/joy/white/4.webp",
+            "images/item/jwpei/joy/white/5.webp",
+            "images/item/jwpei/joy/white/6.webp",
+            "images/item/jwpei/joy/white/7.webp"
+        ]
+    },
+    {
+        "product_id": 1010,
+        "brand": "JW Pei",
+        "name": "Joy Shoulder Bag",
+        "color": "Brown",
+        "category": [
+            "Сумки кросс-боди",
+            "Сумки среднего размера"
+        ],
+        "availability": "no",
+        "popular": "no",
+        "price": 14000,
+        "newprice": 14000,
+        "info": [
+            "JW PEI Joy Shoulder Bag - это классическая повседневная сумка, созданная из экологичной веганской кожи."
+        ],
+        "char": [
+            "Категория: Сумка через плечо",
+            "Основной материал: Веганская кожа + полиэстер",
+            "Тип кожи: Веганская кожа",
+            "Закрывается на защелку с магнитом",
+            "Отделения: 1 большое отделение",
+            "Боковые карманы: 1 внутренний карман",
+            "Ремешок: отстегивающийся ремешок (регулируемый)",
+            "Фурнитура: Золотая фурнитура",
+            "Материал подкладки: Веганская кожа"
+        ],
+        "size": [
+            "Длина - 26,5 см",
+            "Высота - 14,5 см",
+            "Ширина - 6 см",
+            "Длина плечевого ремня - 28,5 см ~ 57 см"
+        ],
+        "photo": [
+            "images/item/jwpei/joy/brown/1.webp",
+            "images/item/jwpei/joy/brown/2.webp",
+            "images/item/jwpei/joy/brown/3.webp",
+            "images/item/jwpei/joy/brown/4.webp"
+        ]
+    },
+    {
+        "product_id": 1011,
+        "brand": "JW Pei",
+        "name": "Damen Sia Crushed",
+        "color": "Black",
+        "category": [
+            "Сумки кросс-боди",
+            "Сумки среднего размера"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 15000,
+        "newprice": 11000,
+        "info": [
+            "null"
+        ],
+        "char": [
+            "Основной материал：Веганская кожа",
+            "Материал подкладки：Полиэстер",
+            "Состаренная серебряная фурнитура",
+            "Можно носить на плече",
+            "1 несъемный (нерегулируемый) ремень",
+            "1 внутренний карман",
+            "Подходит для iPhone 14 Pro Max и всех мобильных телефонов меньшего размера"
+        ],
+        "size": [
+            "Длина - 28 см",
+            "Высота - 15 см",
+            "Ширина - 5,5 см",
+            "Длина плечевого ремня - 21 см"
+        ],
+        "photo": [
+            "images/item/jwpei/sia/black/1.webp",
+            "images/item/jwpei/sia/black/2.webp",
+            "images/item/jwpei/sia/black/3.webp",
+            "images/item/jwpei/sia/black/4.webp",
+            "images/item/jwpei/sia/black/5.JPG"
+        ]
+    },
+    {
+        "product_id": 1012,
+        "brand": "JW Pei",
+        "name": "Hana Mini Faux Suede Tote Bag",
+        "color": "Black",
+        "category": [
+            "Сумки тоут",
+            "Сумки среднего размера"
+        ],
+        "availability": "no",
+        "popular": "no",
+        "price": 15000,
+        "newprice": 15000,
+        "info": [
+            "null"
+        ],
+        "char": [
+            "Основной материал: Искусственная замша",
+            "Внутренний материал: полиэстер",
+            "Золотая фурнитура",
+            "Сумку можно носить на плече или на руке",
+            "1 внутренний карман",
+            "1 съемный и регулируемый ремешок",
+            "Подходит для iPhone 15 Pro Max и всех более компактных моделей"
+        ],
+        "size": [
+            "Длина - 28 см",
+            "Высота - 15,5 см",
+            "Ширина - 8 см",
+            "Высота ручки - 9 см",
+            "Длина плечевого ремня - 45 см ~ 52 см"
+        ],
+        "photo": [
+            "images/item/jwpei/faux/black/1.webp",
+            "images/item/jwpei/faux/black/2.webp",
+            "images/item/jwpei/faux/black/3.webp",
+            "images/item/jwpei/faux/black/4.webp",
+            "images/item/jwpei/faux/black/5.webp",
+            "images/item/jwpei/faux/black/6.webp"
+        ]
+    },
+    {
+        "product_id": 1013,
+        "brand": "JW Pei",
+        "name": "Hana Mini Faux Suede Tote Bag",
+        "color": "Cream White",
+        "category": [
+            "Сумки тоут",
+            "Сумки среднего размера"
+        ],
+        "availability": "no",
+        "popular": "no",
+        "price": 15000,
+        "newprice": 15000,
+        "info": [
+            "null"
+        ],
+        "char": [
+            "Основной материал: Имитация замши",
+            "Внутренний материал: полиэстер",
+            "Золотая фурнитура",
+            "Ручная или наплечная сумка",
+            "1 внутренний карман с прорезью",
+            "1 съемный и регулируемый ремешок",
+            "Подходит для iPhone 15 Pro Max и всех более компактных моделей"
+        ],
+        "size": [
+            "Длина - 28 см",
+            "Высота - 15,5 см",
+            "Ширина - 8 см",
+            "Высота ручки - 9 см",
+            "Длина плечевого ремня - 45 см ~ 52 см"
+        ],
+        "photo": [
+            "images/item/jwpei/faux/cream/1.webp",
+            "images/item/jwpei/faux/cream/2.webp",
+            "images/item/jwpei/faux/cream/3.webp",
+            "images/item/jwpei/faux/cream/4.webp",
+            "images/item/jwpei/faux/cream/5.webp",
+            "images/item/jwpei/faux/cream/6.webp",
+            "images/item/jwpei/faux/cream/7.webp"
+        ]
+    },
+    {
+        "product_id": 1014,
+        "brand": "JW Pei",
+        "name": "Hana Mini Faux Suede Tote Bag",
+        "color": "Brown",
+        "category": [
+            "Сумки тоут",
+            "Сумки среднего размера"
+        ],
+        "availability": "no",
+        "popular": "no",
+        "price": 15000,
+        "newprice": 15000,
+        "info": [
+            "null"
+        ],
+        "char": [
+            "Основной материал: Имитация замши",
+            "Внутренний материал: полиэстер",
+            "Золотая фурнитура",
+            "Ручная или наплечная сумка",
+            "1 внутренний карман с прорезью",
+            "1 съемный и регулируемый ремешок",
+            "Подходит для iPhone 15 Pro Max и всех более компактных моделей"
+        ],
+        "size": [
+            "Длина - 28 см",
+            "Высота - 15,5 см",
+            "Ширина - 8 см",
+            "Высота ручки - 9 см",
+            "Длина плечевого ремня - 45 см ~ 52 см"
+        ],
+        "photo": [
+            "images/item/jwpei/faux/brown/1.webp",
+            "images/item/jwpei/faux/brown/2.webp",
+            "images/item/jwpei/faux/brown/3.webp",
+            "images/item/jwpei/faux/brown/4.webp",
+            "images/item/jwpei/faux/brown/5.webp",
+            "images/item/jwpei/faux/brown/6.webp",
+            "images/item/jwpei/faux/brown/7.webp"
+        ]
+    },
+    {
+        "product_id": 1021,
+        "brand": "Ganni",
+        "name": "Tech Backpack",
+        "color": "Black",
+        "category": [
+            "Рюкзаки"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 27000,
+        "newprice": 15000,
+        "info": [
+            "Черный рюкзак Tech Backpack изготовлен из сертифицированного переработанного полиэстера. Рюкзак имеет регулируемые плечевые ремни с мягкой подкладкой, верхнюю ручку, застежку на пряжке спереди, передние карманы, откидной верх и логотип GANNI."
+        ],
+        "char": [
+            "Состав: 100% переработанный полиэстер",
+            "Регулируемые плечевые ремни",
+            "Верхняя ручка",
+            "Передние карманы",
+            "Застежки на пряжках спереди",
+            "Откидной верх"
+        ],
+        "size": [
+            "Высота - 39 см",
+            "Ширина - 38 см",
+            "Глубина - 10 см",
+            "Длина ремешка - 8 см"
+        ],
+        "photo": [
+            "images/item/ganni/backpack/black/1.jpg",
+            "images/item/ganni/backpack/black/2.jpg",
+            "images/item/ganni/backpack/black/3.jpg",
+            "images/item/ganni/backpack/black/4.jpg"
+        ]
+    },
+    {
+        "product_id": 1022,
+        "brand": "Ganni",
+        "name": "Tech Backpack",
+        "color": "Green",
+        "category": [
+            "Рюкзаки"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 27000,
+        "newprice": 15000,
+        "info": [
+            "Черный рюкзак Tech Backpack изготовлен из сертифицированного переработанного полиэстера. Рюкзак имеет регулируемые плечевые ремни с мягкой подкладкой, верхнюю ручку, застежку на пряжке спереди, передние карманы, откидной верх и логотип GANNI."
+        ],
+        "char": [
+            "Состав: 100% переработанный полиэстер",
+            "Регулируемые плечевые ремни",
+            "Верхняя ручка",
+            "Передние карманы",
+            "Застежки на пряжках спереди",
+            "Откидной верх"
+        ],
+        "size": [
+            "Высота - 39 см",
+            "Ширина - 38 см",
+            "Глубина - 10 см",
+            "Длина ремешка - 8 см"
+        ],
+        "photo": [
+            "images/item/ganni/backpack/green/1.jpg",
+            "images/item/ganni/backpack/green/2.jpg",
+            "images/item/ganni/backpack/green/3.jpg",
+            "images/item/ganni/backpack/green/4.jpg"
+        ]
+    },
+    {
+        "product_id": 1023,
+        "brand": "Ganni",
+        "name": "Recycled Tech Mini Satchel",
+        "color": "Black",
+        "category": [
+            "Сумки кросс-боди"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 16000,
+        "newprice": 12000,
+        "info": [
+            "Откройте для себя мини-сумку Recycled tech от GANNI. Эта многофункциональная сумка выполнена из переработанного полиэстера, украшена фирменными деталями бренда, застегивается на пряжку и имеет регулируемый плечевой ремень."
+        ],
+        "char": [
+            "Состав и материал: 80% переработанный полиэстер, 12% переработанный LE, 5% полиуретан, 3% полиэстер",
+            "Тип сумки: Сумки кросс-боди",
+            "Материал: 100% полиэстер"
+        ],
+        "size": [
+            "Длина - 20 см",
+            "Высота - 12 см",
+            "Ширина - 6 см"
+        ],
+        "photo": [
+            "images/item/ganni/mini/black/1.jpg",
+            "images/item/ganni/mini/black/2.JPG",
+            "images/item/ganni/mini/black/3.JPG",
+            "images/item/ganni/mini/black/4.JPG",
+            "images/item/ganni/mini/black/5.JPG"
+        ]
+    },
+    {
+        "product_id": 1024,
+        "brand": "Ganni",
+        "name": "Recycled Tech Mini Satchel",
+        "color": "Green",
+        "category": [
+            "Сумки кросс-боди"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 16000,
+        "newprice": 12000,
+        "info": [
+            "Откройте для себя мини-сумку Recycled tech от GANNI. Эта многофункциональная сумка выполнена из переработанного полиэстера, украшена фирменными деталями бренда, застегивается на пряжку и имеет регулируемый плечевой ремень."
+        ],
+        "char": [
+            "Состав и материал: 80% переработанный полиэстер, 12% переработанный LE, 5% полиуретан, 3% полиэстер",
+            "Тип сумки: Сумки кросс-боди",
+            "Материал: 100% полиэстер"
+        ],
+        "size": [
+            "Длина - 20 см",
+            "Высота - 12 см",
+            "Ширина - 6 см"
+        ],
+        "photo": [
+            "images/item/ganni/mini/green/1.webp",
+            "images/item/ganni/mini/green/2.jpg",
+            "images/item/ganni/mini/green/3.jpg",
+            "images/item/ganni/mini/green/4.jpg",
+            "images/item/ganni/mini/green/5.webp"
+        ]
+    },
+    {
+        "product_id": 1042,
+        "brand": "Ganni",
+        "name": "Recycled Tech Mini Satchel",
+        "color": "Denim",
+        "category": [
+            "Сумки кросс-боди"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 16000,
+        "newprice": 12000,
+        "info": [
+            "Откройте для себя мини-сумку Denim Tech oт GANNI, изготовленную из переработанной джинсовой ткани. Эта многофункциональная сумка выполнена из переработанной джинсовой ткани, украшена фирменными деталями бренда, застегивается на пряжку и имеет регулируемый плечевой ремень."
+        ],
+        "char": [
+            "Тип сумки: Сумки кросс-боди",
+            "Материал: 100% полиэстер"
+        ],
+        "size": [
+            "Длина - 20 см",
+            "Высота - 12 см",
+            "Ширина - 6 см"
+        ],
+        "photo": [
+            "images/item/ganni/mini/denim/1.jpg",
+            "images/item/ganni/mini/denim/2.jpg",
+            "images/item/ganni/mini/denim/3.jpg",
+            "images/item/ganni/mini/denim/4.jpg",
+            "images/item/ganni/mini/denim/5.jpg",
+            "images/item/ganni/mini/denim/6.jpg"
+        ]
+    },
+    {
+        "product_id": 1025,
+        "brand": "Ganni",
+        "name": "Pillow Small Flap Over Shoulder Bag",
+        "color": "Black",
+        "category": [
+            "Сумки среднего размера"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 21000,
+        "newprice": 12000,
+        "info": [
+            "Сумка Pillow Small Flap Over Shoulder Bag изготовлена из переработанного полиэстера ,имеет верхнюю ручку, съемный регулируемый плечевой ремень, магнитную застежку с клапаном спереди, бляшку с логотипом спереди и одно основное отделение. Данную модель можно носить на плече и через плечо."
+        ],
+        "char": [
+            "Переработанный полиэстер",
+            "Верхняя ручка",
+            "Съемный регулируемый плечевой ремень",
+            "Откидная крышка на магнитной застежке",
+            "Бляшка с логотипом спереди",
+            "Одно основное отделение"
+        ],
+        "size": [
+            "Длина - 20 см",
+            "Высота - 22 см",
+            "Ширина - 9 см"
+        ],
+        "photo": [
+            "images/item/ganni/flap/black/1.jpg",
+            "images/item/ganni/flap/black/2.jpg",
+            "images/item/ganni/flap/black/3.jpg",
+            "images/item/ganni/flap/black/4.jpg",
+            "images/item/ganni/flap/black/5.webp",
+            "images/item/ganni/flap/black/6.jpg",
+            "images/item/ganni/flap/black/7.JPG"
+        ]
+    },
+    {
+        "product_id": 1026,
+        "brand": "Ganni",
+        "name": "Recycled Tech Tote Handtas met Logo",
+        "color": "Black",
+        "category": [
+            "Шопперы"
+        ],
+        "availability": "no",
+        "popular": "no",
+        "price": 25000,
+        "newprice": 25000,
+        "info": [
+            "null"
+        ],
+        "char": [
+            "Цвет фурнитуры: Серебристый",
+            "Материал: 100% полиэстер",
+            "Количество отсеков: 1",
+            "Плечевой ремень: Съемный и регулируемый"
+        ],
+        "size": [
+            "Ширина - 16,5 см",
+            "Глубина - 9,5 см",
+            "Высота - 15,5 см"
+        ],
+        "photo": [
+            "images/item/ganni/tote/black/1.jpg",
+            "images/item/ganni/tote/black/2.jpg",
+            "images/item/ganni/tote/black/3.jpg",
+            "images/item/ganni/tote/black/4.jpg"
+        ]
+    },
+    {
+        "product_id": 1027,
+        "brand": "Bimba Y Lola",
+        "name": "Mini Bag",
+        "color": "Black",
+        "category": [
+            "Сумки кросс-боди"
+        ],
+        "availability": "no",
+        "popular": "no",
+        "price": 15000,
+        "newprice": 15000,
+        "info": [
+            "Сумка выполнена из непромокаемого текстиля. Особенности: застежка на молнию, внутри 1 карман без застежки, внешний карман на молнии, съемный ремень."
+        ],
+        "char": [
+            "Сезон: мульти",
+            "Материал верха: натуральная кожа, полиэстер",
+            "Цвет: Черный",
+            "Узор: Однотонный",
+            "Каркас сумки: Мягкий",
+            "Внутренние карманы: 1",
+            "Застежка: Молния",
+            "Страна производства: Китай"
+        ],
+        "size": [
+            "Длина - 21 см",
+            "Высота - 13 см",
+            "Ширина - 6 см",
+            "Плечевой ремень - 100 см"
+        ],
+        "photo": [
+            "images/item/bimba/mini/black/1.webp",
+            "images/item/bimba/mini/black/2.webp",
+            "images/item/bimba/mini/black/3.webp",
+            "images/item/bimba/mini/black/4.webp",
+            "images/item/bimba/mini/black/5.webp",
+            "images/item/bimba/mini/black/6.webp",
+            "images/item/bimba/mini/black/7.webp"
+        ]
+    },
+    {
+        "product_id": 1028,
+        "brand": "Bimba Y Lola",
+        "name": "Mini Bag",
+        "color": "White",
+        "category": [
+            "Сумки кросс-боди"
+        ],
+        "availability": "no",
+        "popular": "no",
+        "price": 15000,
+        "newprice": 15000,
+        "info": [
+            "Сумка выполнена из непромокаемого текстиля. Особенности: застежка на молнию, внутри 1 карман без застежки, внешний карман на молнии, съемный ремень."
+        ],
+        "char": [
+            "Сезон: мульти",
+            "Материал верха: натуральная кожа, полиэстер",
+            "Цвет: Черный",
+            "Узор: Однотонный",
+            "Каркас сумки: Мягкий",
+            "Внутренние карманы: 1",
+            "Застежка: Молния",
+            "Страна производства: Китай"
+        ],
+        "size": [
+            "Длина - 21 см",
+            "Высота - 13 см",
+            "Ширина - 6 см",
+            "Плечевой ремень - 100 см"
+        ],
+        "photo": [
+            "images/item/bimba/mini/white/1.webp",
+            "images/item/bimba/mini/white/2.webp",
+            "images/item/bimba/mini/white/3.webp",
+            "images/item/bimba/mini/white/4.webp",
+            "images/item/bimba/mini/white/5.webp",
+            "images/item/bimba/mini/white/6.webp"
+        ]
+    },
+    {
+        "product_id": 1029,
+        "brand": "Bimba Y Lola",
+        "name": "Shopping Bag",
+        "color": "Black",
+        "category": [
+            "Сумки тоут"
+        ],
+        "availability": "no",
+        "popular": "no",
+        "price": 26000,
+        "newprice": 26000,
+        "info": [
+            "Сумка выполнена из непромокаемого текстиля. Особенности: застежка на молнию, внутри 1 карман без застежки, внешний карман на молнии, съемный ремень."
+        ],
+        "char": [
+            "Внешний материал: Полиамид",
+            "Подложка: Полиэстер",
+            "Метод закрытия: Магнит",
+            "Цвет: Монохромный"
+        ],
+        "size": [
+            "Высота - 31 см",
+            "Длина - 37 см",
+            "Ширина - 18 см"
+        ],
+        "photo": [
+            "images/item/bimba/shopping/black/1.webp",
+            "images/item/bimba/shopping/black/2.webp",
+            "images/item/bimba/shopping/black/3.webp",
+            "images/item/bimba/shopping/black/4.webp"
+        ]
+    },
+    {
+        "product_id": 1030,
+        "brand": "Bimba Y Lola",
+        "name": "Rock and Bag",
+        "color": "Black",
+        "category": [
+            "Сумки тоут"
+        ],
+        "availability": "no",
+        "popular": "no",
+        "price": 17000,
+        "newprice": 17000,
+        "info": [
+            "null"
+        ],
+        "char": [
+            "Внешний материал: Полиамид, кожа"
+        ],
+        "size": [
+            "Высота - 18 см",
+            "Длина - 31 см",
+            "Ширина - 8 см"
+        ],
+        "photo": [
+            "images/item/bimba/rock/black/1.webp",
+            "images/item/bimba/rock/black/2.webp",
+            "images/item/bimba/rock/black/3.webp",
+            "images/item/bimba/rock/black/4.webp",
+            "images/item/bimba/rock/black/5.webp"
+        ]
+    },
+    {
+        "product_id": 1031,
+        "brand": "Bimba Y Lola",
+        "name": "Rock and Bag",
+        "color": "Light Khaki",
+        "category": [
+            "Сумки тоут"
+        ],
+        "availability": "no",
+        "popular": "no",
+        "price": 17000,
+        "newprice": 17000,
+        "info": [
+            "null"
+        ],
+        "char": [
+            "Внешний материал: Полиамид, кожа"
+        ],
+        "size": [
+            "Высота - 18 см",
+            "Длина - 31 см",
+            "Ширина - 8 см"
+        ],
+        "photo": [
+            "images/item/bimba/rock/khaki/1.webp",
+            "images/item/bimba/rock/khaki/2.webp",
+            "images/item/bimba/rock/khaki/3.webp",
+            "images/item/bimba/rock/khaki/4.webp",
+            "images/item/bimba/rock/khaki/5.webp"
+        ]
+    },
+    {
+        "product_id": 1040,
+        "brand": "Bimba Y Lola",
+        "name": "Backpack",
+        "color": "Light Green",
+        "category": [
+            "Рюкзаки"
+        ],
+        "availability": "yes",
+        "popular": "yes",
+        "price": 40000,
+        "newprice": 25000,
+        "info": [
+            "Рюкзак светло-зеленый с карманами на молнии из водонепроницаемой ткани.  Модель среднего размера с магнитной застежкой и регулируемым шнуром. Внутренний карман на молнии. Ручки регулируются."
+        ],
+        "char": [
+            "Цвет: светло-зеленый",
+            "Золотая фурнитура"
+        ],
+        "size": [
+            "Ширина - 15 см",
+            "Высота - 28 см",
+            "Глубина - 12 см"
+        ],
+        "photo": [
+            "images/item/bimba/backpack/lightgreen/1.png",
+            "images/item/bimba/backpack/lightgreen/2.png",
+            "images/item/bimba/backpack/lightgreen/3.png",
+            "images/item/bimba/backpack/lightgreen/4.png",
+            "images/item/bimba/backpack/lightgreen/5.png",
+            "images/item/bimba/backpack/lightgreen/6.png"
+        ]
+    },
+    {
+        "product_id": 1032,
+        "brand": "Longchamp",
+        "name": "Le Pliage Xtra mini bag",
+        "color": "Black",
+        "category": [
+            "Сумки кросс-боди"
+        ],
+        "availability": "no",
+        "popular": "no",
+        "price": 35000,
+        "newprice": 35000,
+        "info": [
+            "null"
+        ],
+        "char": [
+            "Молния сверху, скрытая застёжка",
+            "Жаккардовая подкладка с логотипом",
+            "Съемные и регулируемые плечевые ремни",
+            "Одинарная ручка",
+            "Тиснение логотипа спереди",
+            "Откидная крышка",
+            "Зернистая текстура",
+            "Телячья кожа",
+            "Черный цвет"
+        ],
+        "size": [
+            "Ширина - 17 см",
+            "Высота - 11 см",
+            "Глубина - 5,5 см",
+            "Ручка - 7 см",
+            "Ремни - 120 см"
+        ],
+        "photo": [
+            "images/item/longchamp/mini/black/1.jpg",
+            "images/item/longchamp/mini/black/2.jpg",
+            "images/item/longchamp/mini/black/3.jpg",
+            "images/item/longchamp/mini/black/4.jpg",
+            "images/item/longchamp/mini/black/5.jpg"
+        ]
+    },
+    {
+        "product_id": 1033,
+        "brand": "Longchamp",
+        "name": "Medium sized Le Pliage handbag",
+        "color": "Blue",
+        "category": [
+            "Шопперы"
+        ],
+        "availability": "no",
+        "popular": "yes",
+        "price": 25000,
+        "newprice": 25000,
+        "info": [
+            "Сумка Longchamp Paris Le Pliage темно-синяя, среднего размера"
+        ],
+        "char": [
+            "Внешний материал: Переработанный полиамид 100%, кожа 100%",
+            "Темно-синий / светло-коричневый",
+            "Переработанный полиамид / кожа",
+            "Закрывается на молнию",
+            "Можно носить на плече или на руке"
+        ],
+        "size": [
+            "Ширина - 28 см",
+            "Высота - 26,5 см",
+            "Глубина - 15,5 см",
+            "Ручка - 21 см"
+        ],
+        "photo": [
+            "images/item/longchamp/medium/blue/1.jpg",
+            "images/item/longchamp/medium/blue/2.jpg",
+            "images/item/longchamp/medium/blue/3.jpg",
+            "images/item/longchamp/medium/blue/4.jpg",
+            "images/item/longchamp/medium/blue/5.jpg",
+            "images/item/longchamp/medium/blue/6.jpg"
+        ]
+    },
+    {
+        "product_id": 1034,
+        "brand": "Longchamp",
+        "name": "Oversize Le Pliage shopper",
+        "color": "Black",
+        "category": [
+            "Шопперы"
+        ],
+        "availability": "no",
+        "popular": "no",
+        "price": 25000,
+        "newprice": 25000,
+        "info": [
+            "Сумка Oversize Le Pliage чёрного цвета, среднего размера"
+        ],
+        "char": [
+            "Внешний материал: Переработанный полиамид 100%, Телячья кожа 100%",
+            "Цвет - черный",
+            "Фурнитура золотого цвета",
+            "Закрывается на молнию",
+            "Можно носить на плече или на руке"
+        ],
+        "size": [
+            "Ширина - 31 см",
+            "Высота - 30 см",
+            "Глубина - 19 см",
+            "Ручка - 25 см"
+        ],
+        "photo": [
+            "images/item/longchamp/large/black/1.jpg",
+            "images/item/longchamp/large/black/2.jpg",
+            "images/item/longchamp/large/black/3.jpg",
+            "images/item/longchamp/large/black/4.jpg",
+            "images/item/longchamp/large/black/5.jpg",
+            "images/item/longchamp/large/black/6.jpg"
+        ]
+    }
+]

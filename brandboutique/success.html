@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="shortcut icon" type="image/svg" href="images/favicon.png">
+    <title>Заказ успешно отправлен</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css?v=21052025">
+</head>
+<body>
+
+    <div class="success">
+        <div class="success__body">
+            <div class="success__close"><img src="images/close-button.png" alt="close"></div>
+            <p>Спасибо за заказ!</p>
+            <span>Мы свяжемся с вами через WhatsApp или Telegram в ближайшее время для уточнения деталей оплаты и доставки.</span>
+        </div>
+    </div>
+
+    <script>
+        document.querySelector('.success__close').addEventListener('click', event => {
+            location.href = "index.html";
+        })
+        setTimeout( () => {
+            location.href = "index.html";
+        }, 10000)
+    </script>
+</body>
+</html>
