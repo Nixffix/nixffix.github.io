@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap')
+
+*
+    font-family: "Source Code Pro", monospace
+    font-size: 14px
+    transition: 0.3s all
+    color: #fff
+
+.main
+    width: 100%
+    min-height: 100vh
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    background: cadetblue
+    padding: 100px
+    &__body
+        width: 100%
+        max-width: 800px
+        min-width: 600px
+
+.panel
+    border-radius: 20px
+    padding: 20px
+    background: #4b8b96
+    box-shadow: 0px 0px 20px #00000092
+    position: relative
+    overflow: hidden
+    &__message
+        background: #ffd500
+        padding: 10px 24px
+        border-radius: 6px
+        margin-top: 10px
+        text-align: center
+        color: #000
+        overflow: hidden
+        max-height: 0px
+        padding: 0px 24px
+        margin-top: 0px
+    &__profile
+        display: flex
+        justify-content: flex-start
+        align-items: center
+        gap: 14px
+        padding-bottom: 20px
+        border-bottom: 2px solid #ffffff9b
+        margin-bottom: 20px
+        position: relative
+    &__picture
+        width: 40px
+        img
+            width: 100%
+            filter: invert(1)
+    &__update
+        width: 20px
+        cursor: pointer
+        img
+            width: 100%
+            filter: invert(1)
+            opacity: 0.5
+        &:hover
+            img
+                opacity: 1
+                transform: rotate(10deg) scale(1.2)
+    &__area
+        margin-bottom: 20px
+        width: 100%
+        position: relative
+    &__lock
+        position: absolute
+        width: 100%
+        height: 100%
+        border-radius: 8px
+        background: #ffffff52
+        backdrop-filter: blur(1px)
+        z-index: 2
+        top: 0px
+        left: 0px
+    &__label
+        font-weight: 900
+        margin-bottom: 10px
+    &__choose
+        height: 60px
+        background: #ffffff13
+        border-radius: 10px
+        padding: 10px
+        position: relative
+        display: flex
+        justify-content: flex-start
+        align-items: center
+        overflow-x: auto
+        overflow-y: hidden
+        gap: 6px
+        box-shadow: 0px 0px 8px #00000089
+        &::-webkit-scrollbar
+            width: 6px
+            height: 7px
+        &::-webkit-scrollbar-thumb
+            background-color: #d5d5d591
+            border-radius: 4px
+    &__beetwen
+        height: 80%
+        width: 2px
+        min-width: 2px
+        background: #ffffff40
+    &__country, &__operator
+        height: 100%
+        padding: 20px
+        display: flex
+        justify-content: center
+        align-items: center
+        width: fit-content
+        border-radius: 10px
+        background: #ffffff1f
+        cursor: pointer
+        font-size: 14px
+        position: relative
+        min-width: fit-content
+        box-shadow: 0px 0px 6px #00000054
+        &:hover
+            background: #ffffff43
+    &__delete
+        position: absolute
+        top: -4px
+        right: -4px
+        width: 16px
+        height: 16px
+        border-radius: 100px
+        background: #ff5f5f
+        display: flex
+        justify-content: center
+        align-items: center
+        img
+            width: 80%
+            filter: invert(1)
+            opacity: 1
+        &:hover
+            transform: scale(1.3)
+    &__window
+        position: absolute
+        top: calc( 100% + 10px )
+        background: #204f58
+        z-index: 2
+        width: 100%
+        max-height: 0px
+        overflow-y: auto
+        border-radius: 10px
+        padding: 0px 20px
+        display: flex
+        justify-content: flex-start
+        align-items: flex-start
+        flex-wrap: wrap
+        gap: 6px
+        box-shadow: 0px 0xp 8px #000000d9
+        &::-webkit-scrollbar
+            width: 6px
+            height: 4px
+        &::-webkit-scrollbar-thumb
+            background-color: #d5d5d591
+            border-radius: 4px
+        &-country
+            z-index: 3
+    &__variable
+        padding: 12px 20px
+        border-radius: 6px
+        font-size: 14px
+        background: #ffffff16
+        cursor: pointer
+        // position: relative
+        &:hover
+            background: #ffffff3f
+        &-active
+            background: #ffffffe8
+            color: #000
+    &__input
+        width: 100%
+        position: relative
+        margin-bottom: 10px
+        input
+            width: 100%
+            height: 40px
+            font-size: 14px
+            border-radius: 10px
+            padding: 20px 40px
+            background: #ffffff00
+            border: 1px solid #fff
+            &::placeholder
+                color: #fff
+    &__icon
+        position: absolute
+        height: 100%
+        width: 40px
+        display: flex
+        justify-content: center
+        align-items: center
+        top: 0px
+        left: 0px
+        img
+            width: 50%
+            filter: invert(1)
+    &__line
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__hr
+        width: 20px
+    &__price
+        width: 100%
+        height: 60px
+        border-radius: 10px
+        background: #ffffff16
+        padding: 14px
+        box-shadow: 0px 0px 8px #00000089
+        // border: 1px solid #fff
+        &::placeholder
+            color: #ffffff90
+    &__tab
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        gap: 10px
+        padding-top: 20px
+        border-top: 2px solid #ffffff9b
+    &__button
+        width: calc( 50% - 5px )
+        display: flex
+        justify-content: center
+        align-items: center
+        gap: 10px
+        height: 60px
+        border-radius: 10px
+        box-shadow: 0px 0px 8px #00000089
+        // border: 1px solid #000
+        cursor: pointer
+        img
+            width: 28px
+            filter: invert(1)
+        &-clear
+            background: #7d7d7d
+            background: #3e8499
+            background: #bd4c4c
+        &-buy
+            background: #7b4cbd
+            background: #3e9996
+        &-find
+            background: #3e8499
+        &-start
+            background: #4aa351
+        &:hover
+            box-shadow: 0px 0px 4px #00000089
+            transform: translateY(-2px)
+    &__proof
+        position: absolute
+        width: 100%
+        height: 100%
+        top: 0px
+        left: 0px
+        background: #00000020
+        backdrop-filter: blur(10px)
+        z-index: 4
+        opacity: 0
+        display: none
+    &__switch
+        position: absolute
+        top: -150%
+        left: 50%
+        transform: translate(-50%, -50%)
+        width: fit-content
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        cursor: pointer
+        gap: 10px
+        &:hover
+            .panel__descr
+                text-decoration: underline
+            .panel__disable
+                background: #9a2929
+                img
+                    width: 40%
+    &__disable
+        width: 200px
+        height: 200px
+        border-radius: 100px
+        display: flex
+        justify-content: center
+        align-items: center
+        background: #bd4c4c
+        img
+            width: 50%
+            filter: invert(1)
+    &__descr
+        text-transform: uppercase
+        letter-spacing: 2px
+        font-size: 12px
+        font-weight: 500
+    &__add
+        position: absolute
+        width: fit-content
+        padding: 10px 20px
+        border-radius: 10px
+        background: #0000006e
+        backdrop-filter: blur(10px)
+        cursor: pointer
+        display: flex
+        justify-content: center
+        align-items: center
+        gap: 10px
+        bottom: -120px
+        left: 50%
+        transform: translateX(-50%)
+        img
+            width: 20px
+            filter: invert(1)
+        &:hover
+            transform: translateX(-50%) translateY(4px)
+            background: #0000009a
+    &__modal
+        background: #4b8b96
+        box-shadow: 0px 0px 20px #00000092
+        padding: 40px 40px
+        border-radius: 20px
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        gap: 20px
+        position: absolute
+        top: 150%
+        left: 50%
+        transform: translate(-50%, -50%)
+        width: 600px
+    &__sure
+        font-size: 18px
+    &__details
+        margin-bottom: 20px
+        text-transform: uppercase
+    &__or
+        display: flex
+        justify-content: space-between
+        width: 100%
+    &__yes, &__no
+        width: 49%
+        height: 50px
+        border: 1px solid #000
+        display: flex
+        justify-content: center
+        align-items: center
+        border-radius: 10px
+        box-shadow: 0px 0px 8px #00000089
+        cursor: pointer
+        &:hover
+            box-shadow: 0px 0px 4px #00000089
+            transform: translateY(2px)
+    &__yes
+        background: #38a641
+    &__no
+        background: #bd4c4c
+
+
+.find
+    margin-top: 0px
+    padding: 0px 40px
+    background: #3e8499
+    box-shadow: 0px 0px 20px #00000092
+    border-radius: 20px
+    display: flex
+    flex-direction: column
+    gap: 20px
+    overflow: hidden
+    max-height: 0px
+    &__title
+        font-size: 14px
+
+.logs
+    margin-top: 0px
+    padding: 0px 40px
+    background: #181818
+    box-shadow: 0px 0px 20px #00000092
+    border-radius: 20px
+    display: flex
+    flex-direction: column
+    overflow: hidden
+    max-height: 0px
+    position: relative
+    *
+        text-transform: uppercase
+    &__title
+        text-align: center
+        text-transform: uppercase
+        margin-bottom: 20px
+    &__params
+        display: flex
+        justify-content: center
+        align-items: center
+        gap: 8px
+        // background: #ffffff1e
+        // padding: 5px 12px
+        border-radius: 6px
+        width: fit-content
+        margin: 0 auto
+        margin-bottom: 8px
+        p
+            font-size: 12px
+            padding: 6px 12px
+            border-radius: 6px
+            background: #ffffff1e
+        span
+            font-size: 12px
+    &__wall
+        padding: 20px 10px
+        border-top: 2px solid #ffffff6f
+        border-bottom: 2px solid #ffffff6f
+        margin-top: 16px
+        max-height: 400px
+        display: flex
+        flex-direction: column
+        gap: 20px
+        overflow-y: auto
+        &::-webkit-scrollbar
+            width: 6px
+            height: 4px
+        &::-webkit-scrollbar-thumb
+            background-color: #d5d5d591
+            border-radius: 4px
+    &__text
+        display: flex
+        justify-content: flex-start
+        align-items: flex-start
+        gap: 10px
+        p
+            font-size: 12px
+            line-height: 1.4
+        span
+            font-size: 12px
+            line-height: 1.4
+            color: #909090
+    &__loading
+        position: absolute
+        top: 10px
+        left: 10px
+        // left: 50%
+        // transform: translateX(-50%)
+        width: 26px
+        img
+            width: 100%
+    &__footer
+        display: flex
+        flex-direction: row-reverse
+        justify-content: space-between
+        align-items: center
+        padding-top: 20px
+        position: relative
+        *
+            font-size: 12px
+    &__status
+        display: flex
+        justify-content: flex-start
+        align-items: center
+        gap: 10px
+    &__balance
+        position: absolute
+        left: 50%
+        transform: translateX(-50%)
+    &__circle
+        width: 8px
+        height: 8px
+        border-radius: 100px
+        &-off
+            background: #bd4c4c
+        &-on
+            background: #4aa351
+
+.list
+    padding: 0px 20px
+    background: #6a3466
+    background: #0000008f
+    box-shadow: 0px 0px 20px #00000092
+    border-radius: 20px
+    margin-top: 20px
+    overflow: hidden
+    max-height: 0px
+    &__title
+        text-align: center
+        text-transform: uppercase
+        margin-bottom: 20px
+    &__wall
+        padding: 20px 10px
+        border-top: 2px solid #ffffff6f
+        border-bottom: 2px solid #ffffff6f
+        display: flex
+        flex-direction: column
+        gap: 10px
+        max-height: 400px
+        overflow-y: auto
+        &::-webkit-scrollbar
+            width: 6px
+            height: 4px
+        &::-webkit-scrollbar-thumb
+            background-color: #d5d5d591
+            border-radius: 4px
+    &__card
+        display: flex
+        justify-content: space-between
+        align-items: center
+        background: #ffffff2e
+        border-radius: 10px
+        padding: 20px
+    &__id
+        width: 30%
+    &__number
+        display: flex
+        justify-content: flex-end
+        align-items: center
+        gap: 10px
+        width: 30%
+    &__copy
+        width: 30px
+        height: 30px
+        display: flex
+        justify-content: center
+        align-items: center
+        border-radius: 100px
+        background: #ffffff33
+        // background: #59ff0064
+        cursor: pointer
+        img
+            width: 50%
+            filter: invert(1)
+        &:hover
+            background: #ffffff70
+    &__refund
+        width: 24px
+        height: 24px
+        border-radius: 100px
+        // border: 2px solid #fff
+        background: #ef2a2acc
+        display: flex
+        justify-content: center
+        align-items: center
+        cursor: pointer
+        img
+            width: 70%
+            filter: invert(1)
+        &:hover
+            transform: scale(0.9)
+    &__sms, &__refund
+        display: none

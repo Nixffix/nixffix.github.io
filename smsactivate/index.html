@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/svg" href="images/favicon.png">
+    <title>⚙️ SMS-Activate Auto-panel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+    <main class="main">
+
+        <div class="main__body">
+
+            <section class="panel">
+
+                <div class="panel__profile">
+                    <div class="panel__picture">
+                        <img src="images/profile.png" alt="picture">
+                    </div>
+                    <div class="panel__info">
+                        <div class="panel__balance">Баланс аккаунта 00.00 $</div>
+                    </div>
+                    <div class="panel__update"><img src="images/update.png" alt="update"></div>
+                </div>
+
+                <div class="panel__body">
+
+                    <div class="panel__area">
+                        <div class="panel__label">Страна</div>
+                        <div class="panel__choose panel__choose-country">
+                            <div class="panel__country panel__country-all">Выбрать страну</div>
+                            <div class="panel__beetwen"></div>
+                        </div>
+
+                        <div class="panel__window panel__window-country">
+                            <div class="panel__input">
+                                <input type="text" placeholder="Поиск по названию страны">
+                                <div class="panel__icon">
+                                    <img src="images/loupe.png" alt="loupe">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="panel__area">
+                        <div class="panel__label">Оператор</div>
+                        <div class="panel__choose panel__choose-operator">
+                            <div class="panel__operator panel__operator-all">Выбрать оператора</div>
+                            <div class="panel__beetwen"></div>
+                            <div class="panel__lock"></div>
+                        </div>
+
+                        <div class="panel__window panel__window-operator">
+                        </div>
+                    </div>
+
+                    <div class="panel__line">
+
+                        <div class="panel__area">
+                            <div class="panel__label">Количество закупа [ штук ]</div>
+                            <input type="text" class="panel__price panel__price-min panel__order" placeholder="0 шт">
+                        </div>
+
+                        <div class="panel__hr"></div>
+
+                        <div class="panel__area">
+                            <div class="panel__label">Максимальная цена за номер [ $ ]</div>
+                            <input type="text" class="panel__price panel__price-max" placeholder="00.00 $">
+                        </div>
+
+                    </div>
+
+                    <div class="panel__tab">
+
+                        <div class="panel__button panel__button-clear">
+                            <img src="images/clear.png" alt="picture">
+                            <p>Очистить все поля</p>
+                        </div>
+                        <div class="panel__button panel__button-buy">
+                            <img src="images/sim.png" alt="picture">
+                            <p>Купить один номер</p>
+                        </div>
+                        <div class="panel__button panel__button-find">
+                            <img src="images/loupe.png" alt="picture">
+                            <p>Проверить наличие</p>
+                        </div>
+                        <div class="panel__button panel__button-start">
+                            <img src="images/start.png" alt="picture">
+                            <p>Запустить автозакуп</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="panel__proof">
+                    <div class="panel__switch">
+                        <div class="panel__disable"><img src="images/stop.png" alt="off"></div>
+                        <div class="panel__descr">Выключить автозакуп</div>
+                    </div>
+
+                    <div class="panel__add">
+                        <img src="images/open.png" alt="link">
+                        <p>Открыть дополнительную панель</p>
+                    </div>
+
+                    <div class="panel__modal">
+                        <div class="panel__sure">Запустить автозакуп номеров?</div>
+                        <div class="panel__details">[страна] / [оператор] / [количество] / [макс. цена]</div>
+                        <div class="panel__or">
+                            <div class="panel__yes">Запуск</div>
+                            <div class="panel__no">Отмена</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel__message">⚠️ [текст уведомления] ⚠️</div>
+
+            </section>
+
+            <section class="find">
+                <p class="find__title">Результат поиска - [00] штук</p>
+            </section>
+
+            <div class="list">
+                <div class="list__title">Список купленных номеров за сеанс // <span>0</span> шт</div>
+                <div class="list__wall">
+
+                </div>
+            </div>
+
+            <section class="logs">
+                <div class="logs__loading"><img src="images/loading.gif" alt="loading"></div>
+                <div class="logs__params">
+                    <p class="logs__param-country">Страна - <span>[Название]</span></p>
+                    <p class="logs__param-operator">Оператор - <span>[Название]</span></p>
+                    <p class="logs__param-max">Макс. цена - <span>[00.00]</span> $</p>
+                </div>
+                <div class="logs__params">
+                    <p class="logs__param-start">Старт - <span>[00.00.0000 00:00:00]</span></p>
+                    <p class="logs__param-final">Финальная цель - <span>[0]</span> шт</p>
+                    <p class="logs__param-done">Куплено номеров - <span>0</span> шт</p>
+                </div>
+
+                <div class="logs__wall">
+                    
+                </div>
+
+                <div class="logs__footer">
+                    <div class="logs__status">
+                        <p>Статус: <span>[стан]</span></p>
+                        <div class="logs__circle logs__circle-off"></div>
+                    </div>
+                    <div class="logs__balance">
+                        <p>Баланс: <span>[00.00]</span> $</p>
+                    </div>
+                    <div class="logs__time">
+                        <p>[00:00:00]</p>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer class="footer"></footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
