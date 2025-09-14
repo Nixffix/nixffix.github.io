@@ -12,6 +12,7 @@ document.querySelector('.yandex__button').addEventListener('click', event => {
 
     if ( document.querySelector('.yandex__input-links').value == "" || !document.querySelector('.yandex__input-links').value.includes(".") ) {
         document.querySelector('.yandex__warning').textContent = '⚠️ Проверьте правильность заполнения ссылок ⚠️';
+        console.log('yan');
         
         document.querySelector('.yandex__warning').style.marginTop = '20px';
         document.querySelector('.yandex__warning').style.marginBottom = '20px';
@@ -71,7 +72,7 @@ document.querySelector('.yandex__button').addEventListener('click', event => {
         let newLogInPage = document.createElement("div");
         newLogInPage.classList.add("log__text");
         newLogInPage.innerHTML = `<span>${getCurrentTime()}</span><p>🚀 Запуск рассылки жалоб Яндекс</p>`;
-        document.querySelector(".log__wall").appendChild(newLogInPage);
+        document.querySelector(".log__wall").prepend(newLogInPage);
 
         async function sendComplaints() {
             const links = document.querySelector(".yandex__input-links").value;
@@ -85,7 +86,7 @@ document.querySelector('.yandex__button').addEventListener('click', event => {
             formData.append("template2", template2);
 
             // добавляем файлы
-            document.querySelectorAll("input[type=file]").forEach((input) => {
+            document.querySelectorAll(".yandex__input-file").forEach((input) => {
                 if (input.files[0]) formData.append("screens", input.files[0]);
             });
 
@@ -122,8 +123,8 @@ document.querySelector('.yandex__input-links').addEventListener("input", () => {
         newFileScreen.classList.add('yandex__area')
         newFileScreen.innerHTML = `
             <div class="yandex__label">Скрин ${item}</div>
-            <label class="yandex__media-label" for="fileInput${i}">📂 Загрузить файл</label>
-            <input type="file" name="file" accept="image/*" id="fileInput${i}" class="yandex__input-file yandex__file" />
+            <label class="yandex__media-label" for="fileInput333${i}">📂 Загрузить файл</label>
+            <input type="file" name="file" accept="image/*" id="fileInput333${i}" class="yandex__input-file yandex__file" />
         `
         document.querySelector('.yandex__files').append(newFileScreen);
     })
