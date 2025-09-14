@@ -281,39 +281,6 @@
         ]
     },
     {
-        "product_id": 1045,
-        "brand": "Vivienne Westwood",
-        "name": "Colette Tartan Tote Bag",
-        "color": "Pink",
-        "category": [
-            "Сумки тоут",
-            "Шопперы"
-        ],
-        "availability": "yes",
-        "popular": "yes",
-        "price": 55000,
-        "newprice": 30000,
-        "info": [
-            "Сумка-тоут с розовым/многоцветным клетчатым узором, с внутренней нашивкой с логотипом. Имеет основное отделение, фирменную бляшку Orb, металлические ножки, застёжку-молнию сверху, внутренний накладной карман и две верхние ручки."
-        ],
-        "char": [
-            "Внешняя часть: Телячья кожа 100%"
-        ],
-        "size": [
-            "Ширина - 42 см",
-            "Высота - 29 см",
-            "Глубина - 14 см",
-            "Ремешок - 23 см"
-        ],
-        "photo": [
-            "images/item/viviennewestwood/colette/pink/1.png",
-            "images/item/viviennewestwood/colette/pink/2.png",
-            "images/item/viviennewestwood/colette/pink/3.png",
-            "images/item/viviennewestwood/colette/pink/4.png",
-            "images/item/viviennewestwood/colette/pink/5.png"
-        ]
-    },
-    {
         "product_id": 1015,
         "brand": "Cos",
         "name": "Oversize Quilted Shoulder Bag",
@@ -1672,4 +1639,5 @@
             "images/item/longchamp/large/black/6.jpg"
         ]
     }
+
 ]
