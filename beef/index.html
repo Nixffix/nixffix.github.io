@@ -5,11 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/svg" href="images/favicon.png">
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
     <title>BEEF & SPAM panel</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=1.0.0">
 </head>
 <body>
 
@@ -17,11 +23,27 @@
 
         <div class="log">
             <div class="log__body">
+                <div class="log__clear">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
+                        <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5"/>
+                    </svg>
+                    <p>Очистить логи</p>
+                </div>
                 <div class="log__close"><img src="images/close.png" alt="close"></div>
                 <div class="log__title">Логи отправки жалоб</div>
                 <div class="log__wall">
                     <!-- <div class="log__text"><span>00:00:00</span><p>[text message]</p></div> -->
                 </div>
+            </div>
+        </div>
+
+        <div class="fast">
+            <div class="fast__body">
+                <div class="fast__close"><img src="images/close.png" alt="close"></div>
+                <div class="log__title">Быстрая вставка аккаунтов</div>
+                <div class="fast__count">Количество аккаунтов: 0</div>
+                <textarea class="fast__input" placeholder="Вставьте login:refresh_token в отдельных строках"></textarea>
+                <div class="fast__button">Продолжить</div>
             </div>
         </div>
 
@@ -43,7 +65,13 @@
                     <div class="panel__sector panel__sector-email">
 
                         <div class="email__start">
-                            <input type="text" class="email__start-input" placeholder="Укажите количество аккаунтов/жалоб" maxlength="2" pattern="\d{1,2}" oninput="this.value = this.value.replace(/\D/g,'').slice(0,2)">
+                            <input type="text" class="email__start-input" placeholder="Количество жалоб" maxlength="2" pattern="\d{1,2}" oninput="this.value = this.value.replace(/\D/g,'').slice(0,2)">
+                            <div class="email__fast">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+                                    <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"/>
+                                    <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"/>
+                                </svg>
+                            </div>
                             <button class="email__start-button">Отобразить</button>
                         </div>
 
@@ -99,7 +127,7 @@
                     <div class="panel__sector panel__sector-yandex">
 
                         <textarea class="yandex__input yandex__input-links" placeholder="Укажите адреса сайтов в отдельных строках"></textarea>
-                        <textarea class="yandex__input yandex__input-text" placeholder="Укажите поисковый запрос">Маркетплейс</textarea>
+                        <textarea class="yandex__input yandex__input-text yandex__input-searchword" placeholder="Укажите поисковый запрос">Маркетплейс</textarea>
                         <textarea class="yandex__input yandex__input-text" placeholder="Укажите текст жалобы">Я сообщаю о веб-сайте, работающем под доменом [link], который занимается продажей запрещенных и контролируемых веществ, что является нарушением вашей Политики допустимого использования и международных законов. Подробности: - Домен: [link] - Вид злоупотребления: Распространение запрещенных наркотиков - Описание: Веб-сайт предлагает к продаже запрещенные наркотики, включая ЛСД, МДМА, кокаин и т.д.. Эта деятельность является незаконной и представляет серьезную угрозу общественной безопасности. - Пример URL-адреса: [link] - Доказательства: Скриншоты и ссылки прилагаются Пожалуйста, расследуйте этот вопрос и немедленно примите меры по приостановке действия домена. Спасибо вам за ваше внимание к этому серьезному вопросу.</textarea>
 
                         <div class="yandex__files">
@@ -118,7 +146,6 @@
                     <div class="panel__sector panel__sector-rkn">
 
                         <textarea class="rkn__input rkn__input-links" placeholder="Укажите адреса сайтов в отдельных строках"></textarea>
-                        <!-- <textarea class="rkn__input rkn__input-text" placeholder="Укажите поисковый запрос">Маркетплейс</textarea> -->
                         <textarea class="rkn__input rkn__input-text" placeholder="Укажите текст жалобы">Я сообщаю о веб-сайте, работающем под доменом [link], который занимается продажей запрещенных и контролируемых веществ, что является нарушением вашей Политики допустимого использования и международных законов. Подробности: - Домен: [link] - Вид злоупотребления: Распространение запрещенных наркотиков - Описание: Веб-сайт предлагает к продаже запрещенные наркотики, включая ЛСД, МДМА, кокаин и т.д.. Эта деятельность является незаконной и представляет серьезную угрозу общественной безопасности. - Пример URL-адреса: [link] - Доказательства: Скриншоты и ссылки прилагаются Пожалуйста, расследуйте этот вопрос и немедленно примите меры по приостановке действия домена. Спасибо вам за ваше внимание к этому серьезному вопросу.</textarea>
 
                         <div class="rkn__files">
@@ -147,11 +174,11 @@
 
     </main>
 
-    <script src="js/script.js"></script>
-    <script src="js/email.js"></script>
-    <script src="js/google.js"></script>
-    <script src="js/yandex.js"></script>
-    <script src="js/rkn.js"></script>
+    <script src="js/script.js?v=1.0.0"></script>
+    <script src="js/email.js?v=1.0.0"></script>
+    <script src="js/google.js?v=1.0.0"></script>
+    <script src="js/yandex.js?v=1.0.1"></script>
+    <script src="js/rkn.js?v=1.0.0"></script>
 
     <script src="/socket.io/socket.io.js"></script>
     <script>
@@ -172,14 +199,14 @@
                 let newLogInPage = document.createElement("div");
                 newLogInPage.classList.add("log__text");
                 newLogInPage.innerHTML = `<span>${getCurrentTime()}</span><p>${data.message}</p>`;
-                document.querySelector(".log__wall").appendChild(newLogInPage);
+                document.querySelector(".log__wall").prepend(newLogInPage);
             } else {
                 console.log("[SERVER]", data.message);
 
                 let newLogInPage = document.createElement("div");
                 newLogInPage.classList.add("log__text");
                 newLogInPage.innerHTML = `<span>${getCurrentTime()}</span><p>${data.message}</p>`;
-                document.querySelector(".log__wall").appendChild(newLogInPage);
+                document.querySelector(".log__wall").prepend(newLogInPage);
             }
         });
     </script>
