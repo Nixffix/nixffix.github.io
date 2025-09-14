@@ -34,8 +34,8 @@ document.querySelector('.email__start-button').addEventListener('click', event =
 
                 <div class="email__area email__area-screen">
                     <div class="email__label">Скриншот ${i + 1}</div>
-                    <label class="email__media-label" for="fileInput${i}">📂 Загрузить файл</label>
-                    <input type="file" name="file" accept="image/*" id="fileInput${i}" class="email__input-file email__file" />
+                    <label class="email__media-label" for="fileInput111${i}">📂 Загрузить файл</label>
+                    <input type="file" name="file" accept="image/*" id="fileInput111${i}" class="email__input-file email__file" />
                 </div>
             `;
             document.querySelector('.email__wall').append(profile);
@@ -180,8 +180,8 @@ document.querySelector('.email__button').addEventListener('click', event => {
 
                 let newLogInPage = document.createElement("div");
                 newLogInPage.classList.add("log__text");
-                newLogInPage.innerHTML = `<span>${getCurrentTime()}</span><p>✅ Сохранены скриншоты и список жалоб</p>`;
-                document.querySelector(".log__wall").appendChild(newLogInPage);
+                newLogInPage.innerHTML = `<span>${getCurrentTime()}</span><p>✅ Сохранены скриншоты и список жалоб для рассылки</p>`;
+                document.querySelector(".log__wall").prepend(newLogInPage);
 
                 // После сохранения — запускаем рассылку
                 return fetch("/start-send", { method: "POST" });
@@ -193,7 +193,7 @@ document.querySelector('.email__button').addEventListener('click', event => {
                 let newLogInPage = document.createElement("div");
                 newLogInPage.classList.add("log__text");
                 newLogInPage.innerHTML = `<span>${getCurrentTime()}</span><p>🚀 Запуск рассылки жалоб через почту</p>`;
-                document.querySelector(".log__wall").appendChild(newLogInPage);
+                document.querySelector(".log__wall").prepend(newLogInPage);
             })
             .catch(err => console.error(err));
             
@@ -210,4 +210,141 @@ document.querySelector('.email__button').addEventListener('click', event => {
         }, 3000)
     }
 
+})
+
+// Быстрая вставка аккаунтов
+let accountCount = 0;
+let logins = [];
+let tokens = [];
+
+const value = document.querySelector('.fast__input').value;
+accountCount = 0;
+logins = [];
+tokens = [];
+const lines = value.split('\n').map(line => line.trim()).filter(line => line);
+lines.forEach(line => {
+    const parts = line.split(':');
+    if (parts.length === 2) {
+        logins.push(parts[0]);
+        tokens.push(parts[1]);
+    }
+});
+accountCount = logins.length;
+document.querySelector('.fast__count').textContent = `Количество аккаунтов: ${accountCount}`;
+
+document.querySelector('.fast__input').addEventListener('input', event => {
+    const value = event.target.value;
+
+    accountCount = 0;
+    logins = [];
+    tokens = [];
+
+    // Разбиваем по строкам и фильтруем пустые
+    const lines = value.split('\n').map(line => line.trim()).filter(line => line);
+
+    lines.forEach(line => {
+        const parts = line.split(':');
+        if (parts.length === 2) {
+            logins.push(parts[0]);
+            tokens.push(parts[1]);
+        }
+    });
+
+    accountCount = logins.length;
+
+    // Обновляем счетчик в html
+    document.querySelector('.fast__count').textContent = `Количество аккаунтов: ${accountCount}`;
+});
+
+document.querySelector(".fast__button").addEventListener('click', event => {
+    if ( accountCount != 0 ) {
+
+        document.querySelector('.email__start-input').value = accountCount;
+
+        document.querySelectorAll('.email__profile').forEach((item, i) => {
+            item.remove();
+        })
+
+        for (let i = 0; i < accountCount; i++) {
+
+            let profile = document.createElement('div');
+            profile.classList.add('email__profile');
+            profile.innerHTML = `
+                <div class="email__title">Жалоба <span>${i + 1}</span></div>
+
+                <div class="email__area email__area-login">
+                    <div class="email__label">Логин почты ${i + 1}</div>
+                    <input type="text" class="email__input email__input-login" placeholder="email@outlook.com">
+                </div>
+
+                <div class="email__area email__area-password">
+                    <div class="email__label">Рефреш токен почты ${i + 1}</div>
+                    <input type="text" class="email__input email__input-password" placeholder="refresh token">
+                </div>
+
+                <div class="email__area email__area-link">
+                    <div class="email__label">Адрес сайта ${i + 1}</div>
+                    <input type="text" class="email__input email__input-link" placeholder="https://link.com/">
+                </div>
+
+                <div class="email__area email__area-screen">
+                    <div class="email__label">Скриншот ${i + 1}</div>
+                    <label class="email__media-label" for="fileInput111${i}">📂 Загрузить файл</label>
+                    <input type="file" name="file" accept="image/*" id="fileInput111${i}" class="email__input-file email__file" />
+                </div>
+            `;
+            document.querySelector('.email__wall').append(profile);
+
+        }
+
+        document.querySelectorAll('.email__file').forEach( (item, i) => {
+            item.addEventListener('change', event => {
+                const fileName = document.querySelectorAll('.email__media-label')[i];
+                if (item.files && item.files.length > 0) {
+                    fileName.textContent = item.files[0].name;
+                } else {
+                    fileName.textContent = "📂 Загрузить файл";
+                }
+            })
+        })
+
+        document.querySelector('.email__body').style.maxHeight = '1000px';
+        document.querySelector('.email__start').style.marginBottom = '40px';
+
+        document.querySelector('.fast__body').style.top = "-150%";
+        setTimeout( () => {
+            document.querySelector('.fast').style.opacity = "0";
+            setTimeout( () => {
+                document.querySelector('.fast').style.display = "none";
+            }, 600 )
+        }, 600 )
+
+        for (let i = 0; i < accountCount; i++) {
+
+            document.querySelectorAll('.email__input-login')[i].value = logins[i];
+            document.querySelectorAll('.email__input-password')[i].value = tokens[i];
+
+        }
+
+    }
+})
+
+document.querySelector('.email__fast').addEventListener('click', event => {
+    document.querySelector('.fast').style.display = "block";
+    setTimeout( () => {
+        document.querySelector('.fast').style.opacity = "1";
+        setTimeout( () => {
+            document.querySelector('.fast__body').style.top = "50%";
+        }, 100 )
+    }, 100 )
+})
+
+document.querySelector('.fast__close').addEventListener('click', event => {
+    document.querySelector('.fast__body').style.top = "-150%";
+    setTimeout( () => {
+        document.querySelector('.fast').style.opacity = "0";
+        setTimeout( () => {
+            document.querySelector('.fast').style.display = "none";
+        }, 600 )
+    }, 600 )
 })
