@@ -173,5 +173,13 @@
     <footer class="footer"></footer>
 
     <script src="js/script.js"></script>
+
+    <script>
+        document.querySelector('.panel__button-clear').addEventListener('click', event => {
+            document.querySelector('.panel__price-max').value = "";
+            document.querySelector('.panel__order').value = "";
+        })
+    </script>
 </body>
+
 </html>
