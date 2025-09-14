@@ -51,3 +51,14 @@ document.querySelector('.log__close').addEventListener('click', event => {
         }, 600 )
     }, 600 )
 })
+
+// Очистка логов
+
+document.querySelector('.log__clear').addEventListener('click', event => {
+    document.querySelector('.log__wall').innerHTML = "";
+
+    let newLogInPage = document.createElement("div");
+    newLogInPage.classList.add("log__text");
+    newLogInPage.innerHTML = `<span>${getCurrentTime()}</span><p>🧹 Список логов очищен</p>`;
+    document.querySelector(".log__wall").prepend(newLogInPage);
+})
