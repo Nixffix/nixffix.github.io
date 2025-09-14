@@ -59,7 +59,7 @@ document.querySelector('.rkn__button').addEventListener('click', event => {
         let newLogInPage = document.createElement("div");
         newLogInPage.classList.add("log__text");
         newLogInPage.innerHTML = `<span>${getCurrentTime()}</span><p>🚀 Запуск рассылки жалоб РКН</p>`;
-        document.querySelector(".log__wall").appendChild(newLogInPage);
+        document.querySelector(".log__wall").prepend(newLogInPage);
 
         const rawLinks = document.querySelector('.rkn__input-links').value.trim();
         const textTemplate = document.querySelector('.rkn__input-text').value.trim();
@@ -105,8 +105,8 @@ document.querySelector('.rkn__input-links').addEventListener("input", () => {
         newFileScreen.classList.add('rkn__area')
         newFileScreen.innerHTML = `
             <div class="rkn__label">Скрин ${item}</div>
-            <label class="rkn__media-label" for="fileInput${i}">📂 Загрузить файл</label>
-            <input type="file" name="file" accept="image/*" id="fileInput${i}" class="rkn__input-file rkn__file" />
+            <label class="rkn__media-label" for="fileInput444${i}">📂 Загрузить файл</label>
+            <input type="file" name="file" accept="image/*" id="fileInput444${i}" class="rkn__input-file rkn__file" />
         `
         document.querySelector('.rkn__files').append(newFileScreen);
     })
@@ -166,5 +166,5 @@ function addLog(message) {
     const newLogInPage = document.createElement("div");
     newLogInPage.classList.add("log__text");
     newLogInPage.innerHTML = `<span>${getCurrentTime()}</span><p>${message}</p>`;
-    document.querySelector(".log__wall").appendChild(newLogInPage);
+    document.querySelector(".log__wall").prepend(newLogInPage);
 }
