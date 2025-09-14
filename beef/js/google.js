@@ -66,7 +66,7 @@ document.querySelector('.google__button').addEventListener('click', event => {
         let newLogInPage = document.createElement("div");
         newLogInPage.classList.add("log__text");
         newLogInPage.innerHTML = `<span>${getCurrentTime()}</span><p>🚀 Начало рассылки жалоб в Google SafeBrowsing</p>`;
-        document.querySelector(".log__wall").appendChild(newLogInPage);
+        document.querySelector(".log__wall").prepend(newLogInPage);
 
         fetch("/send-google-reports", {
             method: "POST",
