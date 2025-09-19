@@ -1,0 +1,358 @@
+@font-face
+    font-weight: 400
+    font-family: Simple
+    src: url('../fonts/first.ttf')
+
+@font-face
+    font-weight: 700
+    font-family: Bold
+    src: url('../fonts/second.ttf')
+
+@font-face
+    font-weight: 700
+    font-family: Mult
+    src: url('../fonts/mult.woff2')
+
+// *
+//     transition: 0.4s all
+
+body
+    // background: url('../images/poster.jpg') center center/cover no-repeat
+    width: 100%
+    height: fit-content
+
+.main
+    min-width: 1880px
+    width: 100%
+    max-width: 1920px
+    margin: 0 auto
+    overflow: hidden
+
+.first
+    width: 100%
+    height: 1200px
+    background: url('../images/poster.jpg') center center/cover no-repeat
+    position: relative
+    overflow: hidden
+    // display: none
+    &__money
+        &-left
+            position: absolute
+            height: 100%
+            left: 0px
+            top: 0px
+            z-index: 2
+            img
+                height: 100%
+        &-right
+            position: absolute
+            height: 100%
+            right: 0px
+            top: 10px
+            z-index: 2
+            img
+                height: 100%
+    &__build
+        position: absolute
+        bottom: -20%
+        left: 50%
+        transform: translateX(-50%)
+        width: 120%
+        img
+            width: 100%
+    &__dance
+        position: absolute
+        width: 100%
+        bottom: -10%
+        left: 0px
+        z-index: 1
+        img
+            width: 100%
+    &__dj
+        position: absolute
+        bottom: 10%
+        left: 50%
+        transform: translateX(-50%)
+        width: 40%
+    &__panel
+        position: relative
+        width: 100%
+        img
+            width: 100%
+            bottom: 0px
+    &__mc
+        width: 60%
+        position: absolute
+        left: 50%
+        transform: translateX(-50%)
+        bottom: 70%
+        img
+            width: 100%
+    &__hand
+        position: absolute
+        width: 25%
+        top: -10%
+        left: 20%
+        img
+            width: 100%
+    &__info
+        position: absolute
+        left: 50%
+        top: 8%
+        transform: translateX(-50%)
+        z-index: 4
+    &__title
+        font-size: 44px
+        text-align: center
+        color: #00C542
+        font-family: Simple
+        text-transform: uppercase
+        margin-bottom: 30px
+        text-shadow: 0px 0px 6px #000
+    &__name
+        font-size: 200px
+        text-align: center
+        color: #ccff00
+        font-family: Bold
+        text-shadow: 0px 0px 6px #000
+    &__line
+        display: flex
+        justify-content: center
+        align-items: center
+        gap: 20px
+        p
+            font-size: 54px
+            color: #ccff00
+            font-family: Simple
+            text-shadow: 0px 0px 6px #000
+        span
+            padding: 6px 20px
+            border-radius: 100px
+            background: #ccff00
+            font-family: Simple
+            font-size: 48px
+            box-shadow: 0px 0px 6px #000
+    &__social
+        width: 60px
+        height: 60px
+        border-radius: 100px
+        background: #ccff00
+        display: flex
+        justify-content: center
+        align-items: center
+        box-shadow: 0px 0px 6px #000
+        img
+            width: 60%
+            filter: brightness(0)
+        &:hover
+            img
+                opacity: 0.6
+
+.who
+    // padding: 100px 0px
+    display: flex
+    justify-content: center
+    align-items: center
+    position: relative
+    gap: 40px
+    background: #CCFF00
+    &__left
+        width: 25%
+        img
+            width: 100%
+            transform: rotate(30deg)
+    &__right
+        width: 28%
+    &__title
+        font-size: 44px
+        color: #240049
+        font-family: Bold
+        margin-bottom: 20px
+        span
+            font-family: Bold
+            color: #240049
+            font-size: 66px
+    &__text
+        font-size: 32px
+        font-family: Simple
+        color: #7200E4
+    &__pony
+        width: 300px
+        position: absolute
+        right: 10%
+        bottom: 0px
+        img
+            width: 100%
+
+.buy
+    padding: 60px 0px
+    display: flex
+    justify-content: center
+    align-items: flex-start
+    gap: 60px
+    background: #fff
+    &__left
+        font-size: 44px
+        color: #240049
+        font-family: Bold
+        margin-bottom: 20px
+        width: 15%
+    &__right
+        width: 40%
+    &__card
+        margin-bottom: 20px
+        p
+            font-size: 32px
+            font-family: Simple
+            color: #7200E4
+            position: relative
+            width: fit-content
+            margin-bottom: 4px
+            &::after
+                content: ""
+                position: absolute
+                width: calc( 100% - 26px )
+                height: 2px
+                background: #7200E4
+                right: 0px
+                bottom: 1px
+        span
+            font-size: 32px
+            font-family: Simple
+            color: #7200E4
+            padding-left: 30px
+            display: block
+
+.why
+    background: #5900B3
+    padding-bottom: 60px
+    &__image
+        width: 100%
+        img
+            margin-top: -50px
+            width: 100%
+    &__body
+        padding-top: 60px
+        width: 50%
+        margin: 0 auto
+    &__title
+        font-size: 44px
+        color: #000
+        font-family: Bold
+        margin-bottom: 20px
+        width: fit-content
+        margin: 0 auto
+        position: relative
+        margin-bottom: 80px
+        display: flex
+    &__star-1
+        position: absolute
+        width: 40px
+        top: -40px
+        right: -40px
+        img
+            width: 100%
+    &__star-2
+        position: absolute
+        width: 30px
+        top: 30px
+        left: -30px
+        img
+            width: 100%
+    &__star-3
+        position: absolute
+        width: 20px
+        top: 50px
+        left: 10px
+        img
+            width: 100%
+    &__card
+        margin-bottom: 40px
+        width: 100%
+        display: flex
+        flex-direction: column
+        p
+            font-size: 32px
+            font-family: Simple
+            color: #ccff00
+            position: relative
+            width: fit-content
+            margin-bottom: 4px
+            &::after
+                content: ""
+                position: absolute
+                width: calc( 100% - 22px )
+                height: 2px
+                background: #ccff00
+                left: 50%
+                transform: translateX(-50%)
+                bottom: 1px
+        span
+            display: block
+            padding-left: 30px
+            font-size: 32px
+            font-family: Simple
+            color: #ccff00
+            position: relative
+            width: fit-content
+            margin-bottom: 4px
+
+.gang
+    width: 100%
+    img
+        width: 100%
+
+.down
+    background: #000
+    padding-top: 60px
+    &__tokens
+        display: flex
+        justify-content: center
+        align-items: center
+        gap: 100px
+        margin-bottom: 60px
+    &__token
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        align-items: center
+        a
+            display: block
+            width: 150px
+            margin-bottom: 40px
+            cursor: pointer
+            &:hover
+                opacity: 0.7
+            img
+                width: 150px
+                border-radius: 100px
+        p
+            color: #fff
+            font-size: 36px
+            font-family: Mult
+            letter-spacing: 6px
+    &__info
+        // padding-top: 60px
+        text-align: center
+        color: #fff
+        font-size: 24px
+        font-family: Simple
+        // padding-bottom: 60px
+        display: flex
+        flex-direction: column
+        width: 100%
+        padding: 60px 20px 60px 20px
+        margin: 0 auto
+    &__footer
+        text-align: center
+        color: #ccff00
+        font-size: 32px
+        font-family: Bold
+        display: flex
+        justify-content: center
+        align-items: center
+        gap: 10px
+        padding-bottom: 20px
+        span
+            font-size: 44px
+            display: block
