@@ -1,0 +1,161 @@
+@media ( max-width: 1140px )
+    .container
+        width: 100%
+        padding: 0 20px
+
+@media ( max-width: 1000px )
+    .open
+        padding-top: 40px
+        flex-direction: column-reverse
+        gap: 40px
+    .faq
+        flex-direction: column
+        gap: 32px
+        &__left
+            width: 100%
+        &__right
+            width: 100%
+
+@media ( max-width: 855px )
+    .profile
+        width: 100%
+
+@media ( max-width: 760px )
+    .open
+        &__right
+            width: 100%
+        &__title
+            font-size: 48px
+            line-height: 48px
+        &__subtitle
+            font-size: 20px
+
+@media ( max-width: 660px )
+    .header
+        &__body
+            padding: 0px 20px
+    .promo
+        &__body
+            padding: 0px 20px
+    .profile
+        &__title
+            font-size: 48px
+            line-height: 48px
+        &__card
+            width: 100%
+            height: fit-content
+        &__icon
+            height: 100%
+            padding: 20px 0px
+        &__video
+            video
+                height: 100vw
+    .faq
+        &__title
+            font-size: 48px
+            line-height: 48px
+        &__subtitle
+            font-size: 20px
+
+@media ( max-width: 540px )
+    .promo
+        overflow: hidden
+        &__card
+            height: 50px
+            max-height: 50px
+            gap: 6px
+            padding: 6px 12px
+            p
+                font-size: 13px
+            img
+                width: 26px
+            &-one
+                left: 50%
+                transform: translateX(-50%) rotate3d(-0.502823, 0.864389, 0, 20deg)
+                top: 14%
+            &-two
+                left: 50%
+                transform: translateX(-50%) rotate3d(-0.502823, 0.864389, 0, 20deg)
+                bottom: 14%
+            &-three
+                left: -6%
+                transform: translateY(-50%) rotate3d(-0.502823, 0.864389, 0, 20deg)
+                top: 50%
+            &-four
+                right: -6%
+                transform: translateY(-50%) rotate3d(-0.502823, 0.864389, 0, 20deg)
+                top: 50%
+            &-five
+                left: 20%
+                transform: translateX(-50%) rotate3d(-0.502823, 0.864389, 0, 20deg)
+                top: 25%
+            &-six
+                left: 20%
+                transform: translateX(-50%) rotate3d(-0.502823, 0.864389, 0, 20deg)
+                bottom: 25%
+            &-seven
+                right: 20%
+                transform: translateX(50%) rotate3d(-0.502823, 0.864389, 0, 20deg)
+                bottom: 25%
+            &-eight
+                right: 20%
+                transform: translateX(50%) rotate3d(-0.502823, 0.864389, 0, 20deg)
+                top: 25%
+        &__base
+            p
+                font-size: 16px
+        &__text
+            font-size: 12px
+        &__button
+            height: 60px
+            font-size: 16px
+    .open
+        &__left
+            width: 100%
+
+@media ( max-width: 500px )
+    .profile
+        &__title
+            margin-bottom: 0px
+            text-align: left
+        &__video
+            video
+                height: 540px
+    .open
+        &__circle
+            transform: scale(0.5)
+        img
+            transform: scale(0.8)
+        &__left
+            height: 100vw
+
+@media ( max-width: 440px )
+    .profile
+        &__card
+            align-items: flex-start
+        &__video
+            video
+                height: 640px
+    .open
+        &__left
+            min-height: 420px
+        &__ens
+            bottom: 2%
+            top: auto
+        &__base
+            top: 4%
+    .faq
+        &__lil
+            padding-left: 0px
+            padding-right: 0px
+        &__column
+            strong, p
+                width: 136px
+
+@media ( max-width: 380px )
+    .profile
+        &__card
+            gap: 14px
+        &__video
+            video
+                height: 740px
