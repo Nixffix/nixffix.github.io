@@ -943,6 +943,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media (max-width: 440px) {
+  .header__auth {
+    -webkit-transform: translateY(4px);
+        -ms-transform: translateY(4px);
+            transform: translateY(4px);
+  }
   .profile__card {
     -webkit-box-align: start;
         -ms-flex-align: start;
