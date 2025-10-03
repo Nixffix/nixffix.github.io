@@ -966,6 +966,8 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 0px;
   }
   .faq__column strong, .faq__column p {
+    padding: 10px;
+    padding-top: 14px;
     width: 136px;
   }
 }
