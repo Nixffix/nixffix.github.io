@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap')
+
+*
+    font-family: "Roboto", sans-serif
+    font-size: 14px
+    color: #fff
+    transition: 0.6s all
+
+body
+    background: #111111
+
+.main
+    max-width: 600px
+    width: 100%
+    margin: 0 auto
+    padding: 0px 20px
+    display: flex
+    flex-direction: column
+    justify-content: flex-start
+    align-items: center
+    padding-bottom: 40px
+    &__logo
+        width: 300px
+        padding: 10px 0px
+        img
+            width: 100%
+    &__hr
+        width: 100%
+        height: 1px
+        background: #3f3f3f
+        margin-bottom: 20px
+    &__title
+        font-size: 16px
+        font-weight: 600
+        text-align: center
+        line-height: 1.4
+    &__subtitle
+        padding-top: 10px
+        font-size: 16px
+        font-weight: 100
+        margin-bottom: 40px
+        text-align: center
+        line-height: 1.4
+    &__block
+        width: 260px
+        position: relative
+    &__phone
+        width: 100%
+        img
+            width: 100%
+    &__loading
+        width: 60px
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        img
+            width: 100%
+    &__card
+        margin-top: 40px
+        margin-bottom: 40px
+        max-width: 400px
+        width: 100%
+        background: #191919
+        border-radius: 20px
+        position: relative
+        padding: 20px
+        padding-top: 100px
+        box-shadow: 0px 0px 30px #ffffff71
+    &__chip
+        width: 40px
+        margin-bottom: 20px
+        img
+            width: 100%
+            filter: brightness(0) invert(1)
+    &__numbers
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-bottom: 20px
+    &__number
+        width: 21%
+        text-align: center
+        background: #ffffff00
+        font-size: 36px
+        font-family: "Share Tech Mono", monospace
+        &::placeholder
+            color: #fff
+    &__info
+        font-family: "Share Tech Mono", monospace
+        font-size: 18px
+    &__bank
+        width: 180px
+        position: absolute
+        top: 10px
+        right: 10px
+        img
+            width: 100%
+    &__box
+        width: 270px
+        margin: 0 auto
+    &__nfc
+        width: 100%
+        display: flex
+        justify-content: space-between
+        align-items: center
+        gap: 10px
+        margin-bottom: 40px
+        p
+            font-weight: 400
+            font-size: 16px
+            color: #6d6d6d
+    &__icon
+        width: 40px
+        height: 40px
+        border-radius: 100px
+        display: flex
+        justify-content: center
+        align-items: center
+        background: #fff
+        img
+            width: 60%
+    &__label
+        display: flex
+        justify-content: space-between
+        margin-bottom: 10px
+        p
+            font-size: 18px
+            font-weight: 600
+            color: #ccc
+    &__descr
+        color: #6d6d6d
+        margin-bottom: 20px
+    &__name
+        display: flex
+        justify-content: flex-start
+        align-items: center
+        gap: 10px
+        margin-bottom: 14px
+        img
+            width: 22px
+        p
+            font-size: 16px
+            font-weight: 600
+            color: #ccc
+            transform: translateY(3px)
+    &__pin
+        width: 100%
+        padding: 20px
+        border-radius: 10px
+        border: 2px solid #353535
+        background: #040404ee
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__input
+        background: #131313
+        border-radius: 6px
+        border: 1px solid #262626
+        width: 44px
+        height: 44px
+        display: flex
+        justify-content: center
+        align-items: center
+        text-align: center
+        font-size: 18px
+
+input[type=number]
+    -moz-appearance: textfield
+
+    &::-webkit-inner-spin-button, &::-webkit-outer-spin-button 
+        -webkit-appearance: none
+        margin: 0
+
+.nfc
+    max-width: 400px
+    margin: 0 auto
+    opacity: 0
+    // display: none
+    &__back
+        position: absolute
+        width: 100%
+        height: 200px
+        background: linear-gradient(to bottom, white, transparent)
+        opacity: 0
+    &__first
+        // display: none
+    &__logo
+        width: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        padding: 20px 0px
+        margin-bottom: 60px
+        img
+            width: 160px
+    &__title
+        text-align: center
+        padding: 0px 10px
+        width: 100%
+        font-size: 21px
+        line-height: 1.4
+        margin-bottom: 60px
+    &__center
+        width: 100%
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        gap: 20px
+        p
+            font-weight: 500
+            font-size: 16px
+    &__card
+        width: 280px
+        margin: 0 auto
+        position: relative
+        margin-bottom: 40px
+        img
+            width: 100%
+    &__number
+        position: absolute
+        width: 100%
+        top: 104px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding: 0px 28px
+        padding-right: 16px
+    &__num
+        font-size: 22px
+        font-weight: 500
+        font-family: "Share Tech Mono", monospace
+        background: url('../images/silver.jpg') center/cover no-repeat
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+    &__date
+        font-size: 20px
+        font-weight: 500
+        font-family: "Share Tech Mono", monospace
+        background: url('../images/silver.jpg') center/cover no-repeat
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+        position: absolute
+        left: 28px
+        top: 138px
+    &__button
+        padding: 10px 60px
+        background: #1454bc
+        border-radius: 100px
+        width: fit-content
+        margin: 0 auto
+        cursor: pointer
+        p
+            font-size: 15px
+            font-weight: 500
+    &__second
+        display: none
+
+.nfc__loader 
+    width: 40px
+    aspect-ratio: 1
+    border-radius: 50%
+    border: 4px solid #00c51a
+    animation: l20-1 0.8s infinite linear alternate, l20-2 1.6s infinite linear
+
+@keyframes l20-1
+    0%       
+        clip-path: polygon(50% 50%,0       0,  50%   0%,  50%    0%, 50%    0%, 50%    0%, 50%    0% )
+    12.5%   
+        clip-path: polygon(50% 50%,0       0,  50%   0%,  100%   0%, 100%   0%, 100%   0%, 100%   0% )
+    25%     
+        clip-path: polygon(50% 50%,0       0,  50%   0%,  100%   0%, 100% 100%, 100% 100%, 100% 100% )
+    50%     
+        clip-path: polygon(50% 50%,0       0,  50%   0%,  100%   0%, 100% 100%, 50%  100%, 0%   100% )
+    62.5%   
+        clip-path: polygon(50% 50%,100%    0, 100%   0%,  100%   0%, 100% 100%, 50%  100%, 0%   100% )
+    75%     
+        clip-path: polygon(50% 50%,100% 100%, 100% 100%,  100% 100%, 100% 100%, 50%  100%, 0%   100% )
+    100%    
+        clip-path: polygon(50% 50%,50%  100%,  50% 100%,   50% 100%,  50% 100%, 50%  100%, 0%   100% )
+
+@keyframes l20-2
+    0%    
+        transform: scaleY(1)  rotate(0deg)
+    49.99%
+        transform: scaleY(1)  rotate(135deg)
+    50%   
+        transform: scaleY(-1) rotate(0deg)
+    100%  
+        transform: scaleY(-1) rotate(-135deg)
+
+.pin
+    max-width: 300px
+    margin: 0 auto
+    display: none
+    user-select: none
+    &__title
+        padding-top: 80px
+        text-align: center
+        width: 100%
+        font-size: 16px
+        color: #d6d6d6
+    &__pass
+        width: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        gap: 10px
+        padding-top: 16px
+        margin-bottom: 60px
+    &__circle
+        width: 18px
+        height: 18px
+        background: #fff
+        border-radius: 100px
+        opacity: 0.3
+        &-active
+            opacity: 1
+    &__calc
+        display: flex
+        justify-content: space-between
+        align-items: center
+        flex-wrap: wrap
+    &__btn
+        width: 94px
+        height: 94px
+        min-width: 94px
+        min-height: 94px
+        display: flex
+        justify-content: center
+        align-items: center
+        border-radius: 100px
+        border: 2px solid #ffffff9e
+        margin-bottom: 10px
+        cursor: pointer
+        p
+            font-size: 22px
+        &:hover
+            background: #ffffff2a
+    &__none
+        width: 94px
+        height: 94px
+        min-width: 94px
+        min-height: 94px
+    &__remove
+        width: 94px
+        height: 94px
+        min-width: 94px
+        min-height: 94px
+        display: flex
+        justify-content: center
+        align-items: center
+        cursor: pointer
+        svg
+            height: auto
+            width: 24px
+
+.verif
+    position: absolute
+    top: 120px
+    left: 50%
+    transform: translateX(-50%)
+    width: 94%
+    max-width: 350px
+    height: 480px
+    border-radius: 30px
+    background: #ffffff1e
+    display: flex
+    justify-content: center
+    align-items: center
+    backdrop-filter: blur(1px)
+    display: none
+    &__body
+        background: #616161
+        min-width: 200px
+        min-height: 240px
+        border-radius: 20px
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        gap: 20px
+        p
+            font-size: 16px
+    &__loader
+        width: 40px
+        aspect-ratio: 1
+        border-radius: 50%
+        border: 4px solid #00c51a
+        animation: l20-1 0.8s infinite linear alternate, l20-2 1.6s infinite linear
+
+@media ( max-width: 500px )
+    .main
+        &__logo
+            width: 260px
+        &__block
+            width: 200px
+        &__card
+            width: 100%
+
+@media ( max-width: 440px )
+    .main
+        &__number
+            font-size: 28px
+
+@media ( max-width: 360px )
+    .main
+        &__number
+            font-size: 24px
+        &__info
+            font-size: 16px
